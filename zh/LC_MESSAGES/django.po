@@ -1,0 +1,1491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 17:15+0100\n"
+"PO-Revision-Date: 2012-07-15 13:56+0800\n"
+"Last-Translator: James <lrc2004335@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh-cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: forms.py:24
+msgid ""
+"Only alphabetical characters, numbers and underscore are allowed in username!"
+msgstr "在帐号里只允许拼音，数字和下划线！"
+
+#: forms.py:31
+#, python-format
+msgid "The username \"%(username)s\" is already taken."
+msgstr "这个帐号 \"%(username)s\" 已经被采取"
+
+#: forms.py:40 forms.py:134 templates/hall-of-fame.html:7
+msgid "Username"
+msgstr "帐号"
+
+#: forms.py:41
+msgid "Bitcoin address"
+msgstr "比特币地址"
+
+#: forms.py:42
+msgid "Your <strong>Bitcoin</strong> address for receiving rewards"
+msgstr "您的<strong>比特币</strong>地址（用来获得酬报）"
+
+#: forms.py:43 forms.py:85
+msgid "Send threshold"
+msgstr "发送酬报的门槛"
+
+#: forms.py:43
+msgid "Coins will be sent once the reward crosses over the threshold"
+msgstr "如果酬报超过门槛，硬币会被发送"
+
+#: forms.py:46
+msgid "Estimated reward"
+msgstr "估计的酬报"
+
+#: forms.py:46
+msgid "Estimated reward for current round"
+msgstr "当前回合估计的酬报"
+
+#: forms.py:48 forms.py:89
+msgid "Unconfirmed reward"
+msgstr "未经证实的酬报"
+
+#: forms.py:48 forms.py:89
+msgid "Pending reward from unconfirmed blocks"
+msgstr "未决定的酬报（从未经证实的块)"
+
+#: forms.py:49 forms.py:90
+msgid "Confirmed reward"
+msgstr "坚信的酬报"
+
+#: forms.py:50 forms.py:91
+msgid "Your confirmed balance from valid blocks"
+msgstr "您的坚信结余（从有效的块)"
+
+#: forms.py:51
+msgid "Total reward"
+msgstr "总酬报"
+
+#: forms.py:52
+msgid "Unconfirmed + Confirmed rewards"
+msgstr "未经证实加确信的酬报"
+
+#: forms.py:54
+msgid "Username in stats"
+msgstr "统计里的帐号"
+
+#: forms.py:54
+msgid "Show my username in public server stats"
+msgstr "在公共服务器的统计里显示我的帐号"
+
+#: forms.py:56
+msgid "Notify me on payout"
+msgstr "在付款时通知我"
+
+#: forms.py:56
+msgid "Send email when the system sends me a payment"
+msgstr "系统发送酬报也同时发送电邮给我"
+
+#: forms.py:69
+msgid ""
+"This is not a valid Bitcoin address. Please install Bitcoin client or "
+"register some web wallet to get one."
+msgstr "这不是个有效的比特币地址。请安装比特币客户端或注册钱包来获取一个地址。"
+
+#: forms.py:75 forms.py:104
+#, fuzzy
+msgid "Sending threshold must be >= 0.05!"
+msgstr "发送酬报的门槛必须超过0.01"
+
+#: forms.py:78
+#, fuzzy
+msgid "Sending threshold must be <= 10! I'm not a bank :-)."
+msgstr "发送酬报的门槛不能超过100!　我不是银行:-)"
+
+#: forms.py:83
+msgid "Namecoin wallet"
+msgstr "名币（Namecoin）钱包"
+
+#: forms.py:84
+msgid "Your <strong>Namecoin</strong> address for receiving rewards"
+msgstr "您的名币地址（用来获得酬报）"
+
+#: forms.py:85
+msgid "Namecoins will be sent once the reward crosses over the threshold"
+msgstr "酬报超过门槛时，名币会被发送"
+
+#: forms.py:98
+msgid ""
+"This is not a valid Namecoin address. Please install Namecoin client to get "
+"one."
+msgstr "这不是个有效的名币地址。请安装名币客户端来获取一个地址。"
+
+#: forms.py:107
+msgid "Sending threshold must be <= 20! I'm not a bank :-)."
+msgstr "发送酬报的门槛不能少过20!　我不是银行 :-)"
+
+#: forms.py:113
+msgid "IP address/Domain"
+msgstr "IP地址／域名"
+
+#: forms.py:113
+msgid "Enter IP address from which miner connections will be accepted."
+msgstr "请输入IP地址。这个IP必须接受矿工的连接。"
+
+#: forms.py:118
+msgid "Login suffix"
+msgstr "登录后缀 "
+
+#: forms.py:118
+msgid "Worker login will be &lt;your username&gt;.&lt;login suffix&gt;"
+msgstr "工人的登陆印信会是您的帐户和登录后缀"
+
+#: forms.py:119 templates/profile.html:119
+msgid "Password"
+msgstr "密码"
+
+#: forms.py:120
+msgid "LP support"
+msgstr "LP协助"
+
+#: forms.py:120
+msgid ""
+"Enable 'long polling' extension for this worker. Turning OFF usually "
+"requires a miner restart."
+msgstr "给这名工人启用长轮询的扩展。"
+
+#: forms.py:130
+msgid "Dots are not allowed in worker name"
+msgstr "工人的名称是不允许放点的。"
+
+#: forms.py:134
+msgid "Enter a valid username."
+msgstr "请输入一个有效的帐号"
+
+#: forms.py:135
+msgid "Email"
+msgstr "电邮地址"
+
+#: forms.py:136
+msgid "Required password"
+msgstr "必要的密码"
+
+#: forms.py:137
+msgid "Password again"
+msgstr "请再输入密码"
+
+#: forms.py:141
+msgid "Passwords are different!"
+msgstr "密码不配！"
+
+#: models.py:42
+#, python-format
+msgid "Maximum %(count)d whitelisted IPs per account allowed."
+msgstr "Maximum %(count)d whitelisted IPs per account allowed."
+
+#: models.py:87
+#, python-format
+msgid "<User%(id)d>"
+msgstr "<User%(id)d>"
+
+#: models.py:108
+msgid "Token not generated yet"
+msgstr "令牌还没产生"
+
+#: models.py:110 views.py:500 views.py:1229
+msgid "Invalid token"
+msgstr "令牌没效"
+
+#: models.py:127
+msgid "[mining.bitcoin.cz] Wallet change confirmation"
+msgstr "[mining.bitcoin.cz]确定更改钱包"
+
+#: models.py:129 templates/stats.html:7 templates/stats.html.py:18
+msgid "Namecoin"
+msgstr "名笔"
+
+#: models.py:129 templates/stats.html:18
+msgid "Bitcoin"
+msgstr "比特币"
+
+#: registration.py:45
+msgid "[mining.bitcoin.cz] New account confirmation"
+msgstr "[mining.bitcoin.cz]确认新帐户"
+
+#: views.py:705
+msgid "[mining.bitcoin.cz] Delete account confirmation"
+msgstr "[mining.bitcoin.cz]确认删除帐户"
+
+#: views.py:926
+msgid "Namecoin settings has been updated."
+msgstr "名币设置已被更新。"
+
+#: views.py:974
+msgid "Account has been updated."
+msgstr "帐户已被更新。"
+
+#: views.py:1011 views.py:1246
+msgid "Account banned. Contact pool administrator at info@bitcoin.cz"
+msgstr "帐户被禁止。请在info@bitcoin.cz和管理员联系。"
+
+#: templates/account_delete.html:2 templates/profile.html:2
+#: templates/profile.html.py:10 templates/settings.html:2
+#: templates/template.html:64 templates/token-manage.html:2
+#: templates/token-manage.html.py:6 templates/transactions.html:2
+#: templates/whitelist.html:5 templates/worker.html:5
+msgid "My account"
+msgstr "本人帐户"
+
+#: templates/account_delete.html:2 templates/account_delete.html.py:5
+#: templates/settings.html:17 templates/settings.html.py:25
+msgid "Delete my account"
+msgstr "删除帐户"
+
+#: templates/account_delete.html:9 templates/wallet_confirm.html:31
+msgid ""
+"Confirmation email has been send. Please check your mailbox and follow the "
+"link."
+msgstr "确认链环已发送。请查看电邮然后跟进链环。"
+
+#: templates/account_delete.html:14
+msgid ""
+"Confirmation link which you provided is not valid. Please be sure that your "
+"confirmation link has been generated in less than one hour. If your current "
+"link is older than one hour, please go to your profile settings and retry "
+"your request."
+msgstr ""
+"您所给的确认链环不有效。请确定确认链环产生的时候不超过一小时前。如果现时的链"
+"环已经超过一小时，请到个人资料页再请求一个链环。"
+
+#: templates/confirm.html:4
+msgid "Your account is already activated."
+msgstr "你的帐户已经启动了。"
+
+#: templates/confirm.html:4 templates/confirm.html.py:21
+#, python-format
+msgid "Please <a href='%(url)s'>login</a> to continue."
+msgstr ""
+
+#: templates/confirm.html:8
+msgid "Your account has been activated!"
+msgstr "你的帐户启动了！"
+
+#: templates/confirm.html:10
+msgid ""
+"Your pool account is now ready for mining. Please use following credentials "
+"in your mining software:"
+msgstr "您的集体帐户已可以发掘了。请把以下的印信用在发掘软件："
+
+#: templates/confirm.html:14
+msgid "Worker login:"
+msgstr "工人帐号："
+
+#: templates/confirm.html:15
+msgid "Worker password:"
+msgstr "工人密码："
+
+#: templates/confirm.html:18
+msgid "This is not your website login, use it only for your mining software."
+msgstr "这不是网络的帐号，请把它用在发掘软件。"
+
+#: templates/confirm.html:19
+msgid "You can change it or register more workers on your profile page."
+msgstr "您可以在个人资料页互换或注册更多工人。"
+
+#: templates/email_account_delete.html:1 templates/email_payout.html:1
+#: templates/email_payout_nmc.html:1 templates/email_registration.html:1
+#: templates/email_wallet_change.html:1
+msgid "Hello"
+msgstr "你好"
+
+#: templates/email_account_delete.html:3
+#, python-format
+msgid ""
+"I'm sending you this email because somebody requested deletion of your "
+"account on <a href='%(url)s'>bitcoin.cz</a> mining pool!"
+msgstr ""
+
+#: templates/email_account_delete.html:6
+#, python-format
+msgid ""
+"If you really want to delete your account <strong>%(username)s</strong>, "
+"please follow <a href='%(url)s%(token)s/%(timestamp)s'>this confirmation "
+"link</a>."
+msgstr ""
+
+#: templates/email_account_delete.html:7
+msgid ""
+"The link is valid for one hour. If you missed this email and link isn't "
+"valid anymore, please go to the website and retry the request."
+msgstr "链环的有效时期只是一小时内。如果您"
+
+#: templates/email_account_delete.html:11
+msgid ""
+"Remaining balance of this account will be considered as a pool donation. If "
+"you forgot to request the payout, you have the last chance right now."
+msgstr ""
+"此帐户的剩余余额将被视为一个集体捐赠。如果你忘了请求派息，您还有最后一次的机"
+"会。"
+
+#: templates/email_account_delete.html:15
+msgid ""
+"If you didn't initiate this request, please don't click the confirmation "
+"link above,"
+msgstr "如果您没发出任何请求，请别按以上的确认链环。"
+
+#: templates/email_account_delete.html:16
+#: templates/email_wallet_change.html:12
+msgid ""
+"change your password immediately and report this incident to info@bitcoin.cz."
+msgstr "把密码改掉之后,请把这事件报告到 info@bitcoin.cz"
+
+#: templates/email_account_delete.html:21 templates/email_payout.html:11
+#: templates/email_payout_nmc.html:11 templates/email_registration.html:9
+#: templates/email_wallet_change.html:17
+msgid "Best regards,"
+msgstr "Best regards,"
+
+#: templates/email_account_delete.html:23 templates/email_payout.html:13
+#: templates/email_payout_nmc.html:13 templates/email_registration.html:11
+#: templates/email_wallet_change.html:19
+msgid "The Pool Operator"
+msgstr "The Pool Operator"
+
+#: templates/email_payout.html:3
+#, python-format
+msgid ""
+"Your reward for mining with the <strong><a href='%(url)s'>bitcoin.cz</a></"
+"strong> mining pool service has exceeded threshold of %(threshold)s BTC."
+msgstr ""
+
+#: templates/email_payout.html:5
+#, python-format
+msgid ""
+"Amount <strong>%(amount)s BTC</strong> has been transfered to your address "
+"<strong>%(wallet)s</strong> at %(date)s UTC."
+msgstr ""
+
+#: templates/email_payout.html:7
+#, python-format
+msgid ""
+"Payment processing through Bitcoin network may take between 30 minutes to 3 "
+"hours. You can watch current payment status on <a href='http://www."
+"blockchain.info/address/%(wallet)s'>http://www.blockchain.info/address/"
+"%(wallet)s</a>. If you see payment on Blockchain.infchain.info in your "
+"Bitcoin client, please verify that your client is up to the latest block or "
+"ask on Bitcoin forum for any other help."
+msgstr ""
+
+#: templates/email_payout_nmc.html:3
+#, python-format
+msgid ""
+"Your Namecoin reward for mining with the <strong><a href='%(url)s'>bitcoin."
+"cz</a></strong> mining pool service has exceeded threshold of %(threshold)s "
+"NMC."
+msgstr ""
+
+#: templates/email_payout_nmc.html:5
+#, python-format
+msgid ""
+"Amount <strong>%(amount)s NMC</strong> has been transfered to your wallet "
+"<strong>%(wallet)s</strong> at %(date)s UTC."
+msgstr ""
+
+#: templates/email_payout_nmc.html:7
+#, python-format
+msgid ""
+"Payment processing through Namecoin network may take between 30 minutes to 3 "
+"hours. You can watch current payment status on <a href='http://explorer.dot-"
+"bit.org/a/%(wallet)s'>http://explorer.dot-bit.org/a/%(wallet)s</a>. If you "
+"see payment on Block Explorer and not in your Namecoin client, please verify "
+"that your client is up to the latest block or ask on Namecoin forum for any "
+"other help."
+msgstr ""
+
+#: templates/email_registration.html:3
+msgid "thank you for signing up for an bitcoin.cz account!"
+msgstr "谢谢你报名户口！"
+
+#: templates/email_registration.html:5
+#, python-format
+msgid ""
+"To activate your account, click to this <a href='%(url)s"
+"%(activation_key)s'>activation link</a>"
+msgstr ""
+
+#: templates/email_wallet_change.html:3
+#, python-format
+msgid ""
+"this email is sent due to a request to change your <strong>%(type)s</strong> "
+"wallet to the new address: <strong>%(wallet)s</strong>. "
+msgstr ""
+
+#: templates/email_wallet_change.html:7
+#, python-format
+msgid ""
+"To authorize this request, please <a href='%(url)s%(wallet_token)s'>follow "
+"this link</a>."
+msgstr ""
+
+#: templates/email_wallet_change.html:11
+#, python-format
+msgid ""
+"If you didn't initiate this change please <a href='%(url)s%(wallet)s'>cancel "
+"this request</a>, "
+msgstr ""
+
+#: templates/hall-of-fame.html:2 templates/stats.html:2
+msgid "Stats"
+msgstr "统计"
+
+#: templates/hall-of-fame.html:4 templates/template.html:67
+msgid "Hall of Fame"
+msgstr "名人堂"
+
+#: templates/hall-of-fame.html:4
+msgid "(TOP50 miners)"
+msgstr "前五十名矿工"
+
+#: templates/hall-of-fame.html:7 templates/profile.html:120
+#: templates/profile.html.py:170
+msgid "Found blocks"
+msgstr "找到的分段"
+
+#: templates/hall-of-fame.html:7
+msgid "Hash rate"
+msgstr "Hash的速率"
+
+#: templates/hall-of-fame.html:19 templates/profile.html:114
+#: templates/profile.html.py:126
+msgid "Mhash/s"
+msgstr "Mhash/s"
+
+#: templates/hall-of-fame.html:20 templates/profile.html:148
+msgid "yes"
+msgstr "确定"
+
+#: templates/hall-of-fame.html:20 templates/profile.html:149
+msgid "no"
+msgstr "拒绝"
+
+#: templates/homepage.html:3
+msgid "Sign up HERE"
+msgstr "注册"
+
+#: templates/homepage.html:7
+msgid "What is Bitcoin Pooled Mining?"
+msgstr "什么是集体发掘比特币(BitCoin)？"
+
+#: templates/homepage.html:9
+msgid ""
+"Bitcoin pooled mining is a way for multiple users to work together to mine "
+"<a href='http://www.weusecoins.com'>bitcoins</a>, and to share the benefits "
+"fairly."
+msgstr ""
+"集体发掘比特币能让用户一起采矿<a href='http://www.weusecoins.com'>比特币</"
+"a>，让大家一起公平分享好处。"
+
+#: templates/homepage.html:12
+msgid "Why do I need bitcoin pool?"
+msgstr "我为何需要集体发掘比特币？"
+
+#: templates/homepage.html:14
+msgid ""
+"Bitcoins are ordinarily only ever created in chunks of 25 at a time, with "
+"the whole 25 paid to a single person. Furthermore, the race to get the 25 "
+"BTC prize in a given block is highly competitive."
+msgstr ""
+"比特币的创建数量通常是一次５０个，而是一个人收。再加上，这５０BTC酬报的竞争是"
+"很大的。"
+
+#: templates/homepage.html:17
+msgid ""
+"If you set out mining on your own, it may be a long time before you can make "
+"a return. Pooled mining allows you to receive smaller, more frequent, "
+"steadier payouts instead. If you have a slower computer, or a CPU miner, "
+"then pooled mining may be the only way that you will ever mine any bitcoins "
+"at all."
+msgstr ""
+"如果自己发掘，您可能会等很久的时间才会有收获。如果您汇集采矿，您会受到更小，"
+"更频仍和更稳定的派息。如果电脑比较慢，或者使用CPU采矿，你可能需要汇集采矿比特"
+"币才能赚到比特币。"
+
+#: templates/homepage.html:28
+msgid "How does bitcoin pool work?"
+msgstr "比特币集体是如何运转？"
+
+#: templates/homepage.html:30
+msgid ""
+"Our server gives users blocks of very low difficulty to solve. Each solution "
+"found is registered as one 'share'. Occasionally, a solution will happen to "
+"also meet the full-strength difficulty requirements of the Bitcoin network, "
+"resulting in a successful 25 BTC minting."
+msgstr ""
+"我们的服务器会给用户解低难度的分段。每一个溶解是称为一个股份。偶尔，一道溶解"
+"会达到比特币网络的全强难度要求，然后造成５０ＢＴＣ的收获。"
+
+#: templates/homepage.html:33
+msgid ""
+"This 25 BTC is divided among all of the users that contributed to that "
+"round, weighted by the number of shares that they earned. Therefore, the "
+"reward earned by a given user is given by the following formula:"
+msgstr ""
+"这50ＢＴＣ会被分配到所有在那轮有贡献的用户，加权赚到的股数。计算一个用户赚到"
+"的酬报是用这方案："
+
+#: templates/homepage.html:35
+#, fuzzy, python-format
+msgid ""
+"(25 BTC + block fees - 2%% fee) * (shares found by user's workers) / (total "
+"shares in current round)"
+msgstr "（50ＢＴＣ－１ＢＴＣ费）*（用户找到的股份的数量）÷（本轮的总体股份）"
+
+#: templates/homepage.html:37
+msgid ""
+"Shares do not carry over from one round to the next. When the pool mine a "
+"block, only users who worked on that block are rewarded, and only for work "
+"they did on that block. This is an unavoidable consequence of the way that "
+"Bitcoin mining in general works."
+msgstr ""
+"股份不会进行到下一轮。集体发掘到一个分段后，只有对那分段有贡献的用户才会得到"
+"酬报。由于发掘比特币的运转，这是个不可避免的后果。 "
+
+#: templates/homepage.html:40
+#, python-format
+msgid "The %(fee)s fee is used to keep this service alive."
+msgstr ""
+
+#: templates/homepage.html:43
+msgid "Key features"
+msgstr "主要特点"
+
+#: templates/homepage.html:45
+msgid "Service lifetime & operator trust"
+msgstr "使用寿命和运营商的信任"
+
+#: templates/homepage.html:45
+msgid ""
+"Users have to trust pool operators, because pools aren't cheat-proof from "
+"the side of the operator."
+msgstr "用户必须信任集体操作者，因为这个集体系统不能防止操作者作弊。"
+
+#: templates/homepage.html:46
+msgid ""
+"was the first Bitcoin mining pool, has been operating consistently since "
+"December 2010 and has a long history of stable and accurate payouts."
+msgstr ""
+"是第一组的比特币集体发掘。这个集体已从２０１２年１２月操作起。它有很长历史的"
+"稳定和准确的派息。"
+
+#: templates/homepage.html:47
+msgid "Namecoin Merged Mining"
+msgstr "名币合并的发掘"
+
+#: templates/homepage.html:47
+msgid ""
+"The pool has been mining Bitcoins and Namecoins since October 2011. Thanks "
+"to this, users have higher mining income than mining on another Bitcoin-only "
+"pool."
+msgstr ""
+"这个集体已从２０１１年１０月份开始发掘比特币和名币。因为这样，用户的收入会比"
+"从发掘比特币而已的集体更高。"
+
+#: templates/homepage.html:48
+msgid ""
+"Pool uses a fair distribution of rewards between members, making the pool "
+"hop-resistant. This has been mathematicaly proven."
+msgstr "这个集体会公平分配酬报。这是尤数学证明的。"
+
+#: templates/homepage.html:49
+#, python-format
+msgid ""
+"This miner extension improves overall mining efficiency of connected miners "
+"by lowering stale share ratio below %(ratio)s."
+msgstr ""
+
+#: templates/homepage.html:50
+msgid ""
+"Another miner extension, which improves network efficiency, especially for "
+"fast mining rigs."
+msgstr "这是另一个矿工的扩张。这矿长能提高网络效率，尤其是于那些比较快的电脑。"
+
+#: templates/homepage.html:53
+#, python-format
+msgid ""
+"You need to use miner software that supports those features. I recommend you "
+"%(miner1)s or %(miner2)s"
+msgstr "您需要有支持这些功能的矿工软件。我建议您用%(miner1)s或者%(miner2)s"
+
+#: templates/homepage.html:56
+msgid "How do I get started?"
+msgstr "我该如何开始？"
+
+#: templates/homepage.html:57
+msgid "1. Install Bitcoin miner on your computer"
+msgstr "1.在您电脑安装比特币矿工"
+
+#: templates/homepage.html:58
+msgid "All major CPU/GPU miners support pooled mining:"
+msgstr "大多数的CPU/GPU矿工都能支持集体发掘："
+
+#: templates/homepage.html:60
+msgid "Kiv's GUI miner (Windows, recommended for beginners)"
+msgstr "Kiv的GUI矿工（Windows,建议给初学者)"
+
+#: templates/homepage.html:60 templates/homepage.html.py:61
+#: templates/homepage.html:62
+msgid "instructions"
+msgstr "说明"
+
+#: templates/homepage.html:61
+#, fuzzy
+msgid "ckolivas's CGMINER (GPU/FPGA, recommended for experts)"
+msgstr "ckolivas的CGMINER (CPU/GPU)"
+
+#: templates/homepage.html:62
+msgid "m0mchil's GPU miner"
+msgstr "m0mchil的GPU矿工"
+
+#: templates/homepage.html:65
+msgid "2. Sign up with a bitcoin.cz account"
+msgstr "2.使用bitcoin.cz帐户来注册"
+
+#: templates/homepage.html:67 templates/login.html:68
+msgid "Sign up"
+msgstr "注册"
+
+#: templates/homepage.html:68
+msgid "Verify email (may be used for troubleshooting)"
+msgstr "确认电邮地址（可能用于故障排除）"
+
+#: templates/homepage.html:69
+#, python-format
+msgid "<a href='%(url)s'>Login</a> to application"
+msgstr ""
+
+#: templates/homepage.html:70
+msgid "Enter your wallet address - can be also online wallet registered on"
+msgstr "请输入您的钱包地址"
+
+#: templates/homepage.html:70 templates/homepage.html.py:80
+#: templates/homepage.html:82
+msgid "or"
+msgstr "或"
+
+#: templates/homepage.html:71
+#, python-format
+msgid ""
+"<a href='%(url)s'>Register</a> your workers. You can use one worker account "
+"for all your miners, but I recommend to use separate account for every miner "
+"for easier troubleshooting."
+msgstr ""
+
+#: templates/homepage.html:74
+msgid "3. Run miner"
+msgstr "3.进行矿工"
+
+#: templates/homepage.html:76
+#, fuzzy
+msgid ""
+"Run your own GPU/FPGA/ASIC miner with the worker credentials you gave "
+"earlier, and connect it to following URL:"
+msgstr "用您的工人印信来执行自己的CPU/GPU矿工，然后把它连接到以下的URL:"
+
+#: templates/homepage.html:79
+msgid ""
+"Default URL for Stratum and Getwork miners. If you're unsure, use this URL."
+msgstr ""
+
+#: templates/homepage.html:81
+msgid "IPv6, only for Stratum miners"
+msgstr ""
+
+#: templates/homepage.html:83
+msgid "anonymous mining over Tor network"
+msgstr "使用Tor网络进行匿名采矿"
+
+#: templates/homepage.html:85
+msgid ""
+"Only the newest version of poclbm miner have direct support for Tor mining "
+"at this moment."
+msgstr "只有最新版本的poclbm矿工"
+
+#: templates/homepage.html:88
+msgid "Is it safe?"
+msgstr "是否安全？"
+
+#: templates/homepage.html:90
+msgid ""
+"In theory, as the Bitcoin pool operator, I could keep the 25 BTC from a "
+"block found by the pool for myself. I'm not going to do this, but I "
+"completely accept that people do not trust the pool operator. It is their "
+"freedom of choice, and Bitcoin is about freedom."
+msgstr ""
+"理论上，作为集体操作者，我能把集体找到的50BTC股份留给自己。但我不会这么做。我"
+"知道有些人不信任操作者，而且我接受这个事实。要不要加入，是他们的选择。"
+
+#: templates/homepage.html:93
+msgid ""
+"I created the Bitcoin pool service with the rising difficulty of mining in "
+"mind because I'd like to return my investment to mining hardware. There used "
+"to be days when I never found a block at all, even with the strongest GPU on "
+"the market, which made me uncomfortable. The periodic micropayments from the "
+"mining pool offer a steadier payout, which lowers the riskiness of my "
+"investment in the Bitcoin market."
+msgstr ""
+"我穿件这比特币集体服务是因为发掘的难度越来越高，而我想得到足够的收益，把收益"
+"花在硬件上。以前有几天内连一个分段都没找到，使我很担心，因为我用的是那时候最"
+"强的GPU。集体发掘的定期小额会给比较稳定的派息，所以投资的风险会比较低。"
+
+#: templates/homepage.html:96
+msgid "About"
+msgstr "有关资讯"
+
+#: templates/homepage.html:98
+msgid ""
+"You can contact me via email at info(at)bitcoin.cz, or via the bitcointalk."
+"org forum at the username slush. You can also follow pool's <a href='https://"
+"www.facebook.com/MiningBitcoinCz'>Facebook profile</a> for latest news and "
+"updates."
+msgstr "您可联系"
+
+#: templates/login.html:45
+msgid "Login to bitcoin.cz"
+msgstr "登录 bitcoin.cz"
+
+#: templates/login.html:48
+msgid "Your username and password didn't match. Please try again."
+msgstr "您的帐号和密码不匹配"
+
+#: templates/login.html:67
+msgid "Forgot username/password?"
+msgstr "忘记帐号或密码？"
+
+#: templates/login.html:68
+msgid "Don't have an account?"
+msgstr "没户口？"
+
+#: templates/msg_pending_wallet.html:1
+#, python-format
+msgid ""
+"You have pending request for changing <strong>%(currency)s</strong> wallet "
+"to '%(wallet_pending)s'."
+msgstr ""
+
+#: templates/msg_pending_wallet.html:4
+#, python-format
+msgid "Email confirmation has been sent to email '%(email)s'."
+msgstr ""
+
+#: templates/msg_pending_wallet.html:5
+msgid "Please check your mailbox and follow confirmation link."
+msgstr "请查电子邮件然后跟进链环确认。"
+
+#: templates/msg_pending_wallet.html:6
+#, python-format
+msgid ""
+"If you didn't receive confirmation email yet, you can also <a "
+"href='%(url_resend)s%(wallet_pending)s'>resend confirmation</a>."
+msgstr ""
+
+#: templates/msg_pending_wallet.html:7
+#, python-format
+msgid ""
+"If you didn't initiate this change please <a href='%(url_cancel)s"
+"%(wallet_pending)s'>cancel the request</a> and <a "
+"href='%(url_password_reset)s'>change your password</a> immediately."
+msgstr ""
+
+#: templates/password_reset.html:45
+msgid "Password reset"
+msgstr "密码重设"
+
+#: templates/password_reset.html:46
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and I'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+"你忘记您的密码？在以下输入您的电邮地址，我会告诉您怎么设置一个新的密码。"
+
+#: templates/password_reset.html:57
+msgid "Reset my password"
+msgstr "重置本人密码"
+
+#: templates/password_reset.html:64
+msgid "Enter new password"
+msgstr "请"
+
+#: templates/password_reset.html:65
+msgid ""
+"Please enter your new password twice so I can verify you typed it in "
+"correctly."
+msgstr "请再输入密码来让我确认您没打错"
+
+#: templates/password_reset.html:81
+msgid "Change my password"
+msgstr "换密码"
+
+#: templates/password_reset.html:87
+msgid "Password reset complete"
+msgstr "重置密码完成"
+
+#: templates/password_reset.html:88
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "您的新密码已放置。您现在可以登录了。"
+
+#: templates/password_reset.html:89
+msgid "Log in"
+msgstr "登录"
+
+#: templates/password_reset_done.html:44
+msgid "Password reset successful"
+msgstr "成功重置密码"
+
+#: templates/password_reset_done.html:45
+msgid ""
+"I've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+"我已通过电邮发送给您设置您的密码到您所提交的电子邮件地址的说明。你应该不久就"
+"会受到。"
+
+#: templates/profile.html:4 templates/settings.html:4
+#: templates/token-manage.html:4 templates/transactions.html:4
+#: templates/whitelist.html:3 templates/worker.html:3
+msgid "Logout"
+msgstr "登出"
+
+#: templates/profile.html:5 templates/settings.html:2
+#: templates/settings.html.py:6
+msgid "Account settings"
+msgstr "户口选项"
+
+#: templates/profile.html:6 templates/transactions.html:6
+msgid "Payout history"
+msgstr "派息历史"
+
+#: templates/profile.html:7 templates/token-manage.html:2
+#: templates/token-manage.html.py:6
+msgid "Manage API tokens"
+msgstr "管理API令牌"
+
+#: templates/profile.html:50 templates/profile.html.py:74
+#: templates/whitelist.html:16 templates/worker.html:18
+msgid "Save"
+msgstr "保存"
+
+#: templates/profile.html:58
+msgid "Show Namecoin settings"
+msgstr "显示名币的设置"
+
+#: templates/profile.html:59
+msgid "Merged mining for Namecoin"
+msgstr "名币的合并的发掘"
+
+#: templates/profile.html:59
+msgid ""
+" is extra income for pool members. Please fill your Namecoin settings to "
+"start collecting Namecoins!"
+msgstr "这是给集体员的而外收入。如果要赚名币的话，请输入您的名币设置。"
+
+#: templates/profile.html:63
+msgid "Namecoin settings"
+msgstr "Namecoin 选项"
+
+#: templates/profile.html:88
+msgid "IP Whitelist"
+msgstr "IP 白名单"
+
+#: templates/profile.html:91
+msgid "You reached maximum of allowed IPs per account."
+msgstr "您已经达到每个帐户最多允许的IP地址。"
+
+#: templates/profile.html:93
+msgid "Add new IP or domain to whitelist"
+msgstr "把新的IP地址或域名加入到白名单"
+
+#: templates/profile.html:96
+msgid "Allowed IP/DNS"
+msgstr "允许的IP地址／DNS"
+
+#: templates/profile.html:96
+msgid "Resolved IP"
+msgstr "解决的IP地址"
+
+#: templates/profile.html:96
+msgid "Updated at"
+msgstr "更新的时间："
+
+#: templates/profile.html:96 templates/profile.html.py:129
+msgid "Actions"
+msgstr "动态"
+
+#: templates/profile.html:98
+msgid " (Your current IP address)"
+msgstr " (您现时的 IP地址)"
+
+#: templates/profile.html:105 templates/profile.html.py:156
+msgid "Delete"
+msgstr "删除"
+
+#: templates/profile.html:113
+msgid "Workers"
+msgstr "工人"
+
+#: templates/profile.html:114
+msgid "Average hashrate in last 10 rounds:"
+msgstr "前十个回合的平均hash速率"
+
+#: templates/profile.html:116
+msgid "Register new worker"
+msgstr "注册新工人"
+
+#: templates/profile.html:119
+msgid "Login"
+msgstr "登入"
+
+#: templates/profile.html:119
+msgid "Difficulty"
+msgstr "难度"
+
+#: templates/profile.html:122 templates/stats.html:15
+msgid "Current shares"
+msgstr "现时的股份数量"
+
+#: templates/profile.html:123
+msgid "Score"
+msgstr "成绩"
+
+#: templates/profile.html:125
+msgid "Last share at"
+msgstr "上个股份的时间："
+
+#: templates/profile.html:127
+msgid "LP"
+msgstr "LP"
+
+#: templates/profile.html:128
+msgid "Stratum"
+msgstr ""
+
+#: templates/profile.html:145
+msgid "on"
+msgstr "开"
+
+#: templates/profile.html:145
+msgid "off"
+msgstr "关"
+
+#: templates/profile.html:153
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/profile.html:154 templates/settings.html:22
+msgid "Really?"
+msgstr "确定？"
+
+#: templates/profile.html:154
+msgid "All worker stats will be lost!"
+msgstr "所有工人统计会被丢失"
+
+#: templates/profile.html:162
+msgid "You don't have any worker yet. Register one right now!"
+msgstr "您没有任何工人。现在注册一个！"
+
+#: templates/profile.html:167
+msgid ""
+"The calculation is based on the number of shares so far, which may not be "
+"accurate for slow workers."
+msgstr "股数的计算是基于到目前为止。如果工人慢，股数未必准确。"
+
+#: templates/profile_worker_pager.html:5 templates/transactions-pager.html:5
+msgid "previous"
+msgstr "前"
+
+#: templates/profile_worker_pager.html:9 templates/transactions-pager.html:9
+msgid "Page"
+msgstr "页"
+
+#: templates/profile_worker_pager.html:9 templates/transactions-pager.html:9
+msgid "of"
+msgstr "的"
+
+#: templates/profile_worker_pager.html:13 templates/transactions-pager.html:13
+msgid "next"
+msgstr "下"
+
+#: templates/register.html:3
+msgid "Register an account"
+msgstr "注册户口"
+
+#: templates/register.html:5
+msgid ""
+"Your account has been created. Please check your mail for activation link."
+msgstr "您的帐户已创建。请检查您的邮件，"
+
+#: templates/register.html:10
+msgid "You already have an account."
+msgstr "你已经拥有了帐户"
+
+#: templates/register.html:10
+#, python-format
+msgid "Please continue to your <a href='%(url)s'>profile page</a>"
+msgstr ""
+
+#: templates/register.html:16
+msgid "Register now!"
+msgstr "现在注册！"
+
+#: templates/settings.html:4 templates/token-manage.html:4
+#: templates/transactions.html:4 templates/whitelist.html:3
+#: templates/worker.html:3
+msgid "Back to profile"
+msgstr "返回个人资料"
+
+#: templates/settings.html:13 templates/settings.html.py:15
+msgid "Change the password"
+msgstr "更改密码"
+
+#: templates/settings.html:14
+msgid "Follow the link for password recovery form:"
+msgstr "对于恢复密码形式，按照链环："
+
+#: templates/settings.html:19
+msgid ""
+"If you don't want to use this service anymore, you can cancel your account "
+"on the following link:"
+msgstr "如果你不想再使用这项服务，您可以用以下的链环来取消您的帐户："
+
+#: templates/settings.html:30
+msgid "Change email"
+msgstr "电邮地址"
+
+#: templates/stats-graphs.html:2 templates/stats-graphs.html.py:10
+#: templates/template.html:66
+msgid "Graphs"
+msgstr "图"
+
+#: templates/stats-graphs.html:54
+msgid "Your daily reward"
+msgstr "您日常的报酬"
+
+#: templates/stats-graphs.html:91
+msgid "Daily reward"
+msgstr "日常的报酬"
+
+#: templates/stats-graphs.html:91
+msgid "day moving AVG"
+msgstr "日均线"
+
+#: templates/stats-graphs.html:150
+msgid "System daily reward"
+msgstr "系统日常的报酬"
+
+#: templates/stats-graphs.html:246
+msgid "Cumulative distribution of normalized number of shares per block"
+msgstr "每分段的股份的规格化数德累积分布"
+
+#: templates/stats-graphs.html:275
+msgid "experimental CDF"
+msgstr "试验的CDF"
+
+#: templates/stats-graphs.html:276
+msgid "theoretical CDF"
+msgstr "空谈的CDF"
+
+#: templates/stats.html:7
+msgid "System statistics"
+msgstr "系统统计"
+
+#: templates/stats.html:8
+msgid "Bitcoin blocks"
+msgstr "比特分段"
+
+#: templates/stats.html:8
+msgid "Namecoin blocks"
+msgstr "名币分段"
+
+#: templates/stats.html:12
+msgid "Current round started at:"
+msgstr "本轮开始时间："
+
+#: templates/stats.html:12
+msgid "UTC"
+msgstr "UTC"
+
+#: templates/stats.html:13
+msgid "Current round duration:"
+msgstr "本轮持续时间"
+
+#: templates/stats.html:15
+msgid "CDF"
+msgstr "CDF"
+
+#: templates/stats.html:18
+msgid "Current"
+msgstr "现时"
+
+#: templates/stats.html:18
+msgid "block"
+msgstr "块"
+
+#: templates/stats.html:18
+msgid "difficulty"
+msgstr "难度"
+
+#: templates/stats.html:19
+msgid "Pool luck"
+msgstr "运气"
+
+#: templates/stats.html:19
+msgid "day"
+msgstr "日"
+
+#: templates/stats.html:19
+msgid "days"
+msgstr "日"
+
+#: templates/stats.html:20
+msgid "Current server load (60 sec average)"
+msgstr "当前服务器负荷（60秒的平均）"
+
+#: templates/stats.html:20
+msgid "getwork/s"
+msgstr "getwork/s "
+
+#: templates/stats.html:21
+msgid "Connected workers"
+msgstr "连接的工人"
+
+#: templates/stats.html:21
+msgid "Tor workers"
+msgstr "Tor的工人"
+
+#: templates/stats.html:25
+msgid "Total score of current round:"
+msgstr "本轮的总比分："
+
+#: templates/stats.html:26
+msgid "Shares contributed in current round:"
+msgstr "在本轮的股份的贡献："
+
+#: templates/stats.html:29
+msgid ""
+"Hashrate on <a href=\"/mining-proxy-howto\">Stratum</a> interface (30 min "
+"average)"
+msgstr ""
+
+#: templates/stats.html:29 templates/stats.html.py:30
+msgid "Ghash/s"
+msgstr "Ghash/s"
+
+#: templates/stats.html:30
+msgid "Approx. cluster performance (30 min average)"
+msgstr "簇聚大约的性能（30分钟的平均）"
+
+#: templates/stats.html:35
+msgid "Namecoin block history"
+msgstr "名币的分段的历史"
+
+#: templates/stats.html:37
+msgid "Bitcoin block history"
+msgstr "比特币的分段的历史"
+
+#: templates/stats.html:40
+msgid "List of found blocks is delayed for two hours."
+msgstr "找到的分段的目录有两小时的推迟。"
+
+#: templates/stats.html:42 templates/transactions.html:41
+msgid "All times are in UTC."
+msgstr "时间是用于UTC。"
+
+#: templates/stats.html:44
+msgid "Block found at"
+msgstr "找到分段的地方："
+
+#: templates/stats.html:44
+msgid "Duration"
+msgstr "持续时间"
+
+#: templates/stats.html:44
+msgid "Total shares"
+msgstr "总体股份"
+
+#: templates/stats.html:46
+msgid "Your BTC reward"
+msgstr "您的比特币酬报"
+
+#: templates/stats.html:48
+msgid "Your NMC reward"
+msgstr "您的名币酬报"
+
+#: templates/stats.html:51
+msgid "Block #"
+msgstr "块数　"
+
+#: templates/stats.html:51
+#, fuzzy
+msgid "Block value"
+msgstr "块数　"
+
+#: templates/stats.html:51
+msgid "Validity"
+msgstr "有效性"
+
+#: templates/stats.html:67
+msgid "Processing..."
+msgstr "正在处理。。。。。。"
+
+#: templates/stats.html:79
+msgid "invalid"
+msgstr "无效"
+
+#: templates/stats.html:81
+msgid "confirmed"
+msgstr "确认的"
+
+#: templates/stats.html:83
+msgid "confirmations left"
+msgstr "剩下的确认数量"
+
+#: templates/stats.html:92 templates/stats.html.py:94
+msgid "JSON format"
+msgstr "JSON版式"
+
+#: templates/template.html:62
+msgid "What is Pooled Mining?"
+msgstr "集体发掘是什么？"
+
+#: templates/template.html:65
+msgid "Statistics"
+msgstr "统计"
+
+#: templates/template.html:68
+msgid "Forum"
+msgstr "论坛"
+
+#: templates/template.html:69
+msgid "Live support"
+msgstr "在线援助"
+
+#: templates/template.html:100
+msgid "News"
+msgstr "新闻"
+
+#: templates/token-manage.html:23
+msgid "Your current token:"
+msgstr "您的现时令牌："
+
+#: templates/token-manage.html:30
+msgid "Generate new token"
+msgstr "生成新的令牌"
+
+#: templates/token-manage.html:38
+msgid ""
+"Keep this token private. With this token and API described below, you can "
+"easily retrieve pool account details without need to store login and "
+"password directly in your application."
+msgstr "请保持令牌私营。用于这以下的令牌和API，您可容易地复取帐户详细。"
+
+#: templates/token-manage.html:41
+msgid "API details"
+msgstr "API详情"
+
+#: templates/token-manage.html:43
+#, fuzzy
+msgid ""
+"This URL contains JSON encoded data about recent pool rounds, including your "
+"round rewards:"
+msgstr "这个URL"
+
+#: templates/token-manage.html:47
+msgid "This URL contains JSON encoded data about your pool account:"
+msgstr "这个URL"
+
+#: templates/token-manage.html:51
+msgid "Login which belongs to given token."
+msgstr "属于给定的令牌的登陆印信。"
+
+#: templates/token-manage.html:52
+msgid ""
+"Total user's hashrate, updated every hour and calculated from last 10 rounds "
+"(Mhash/s)."
+msgstr ""
+"中踢用户的hash速率。这个数据会每小时更新一次，而是从前十轮算起的。（Mhash/s)"
+
+#: templates/token-manage.html:53
+msgid "Reserved."
+msgstr "保留"
+
+#: templates/token-manage.html:54
+msgid ""
+"Estimated reward of current round. This is calculated as (your score)/(total "
+"score) for current round and may vary on every refresh."
+msgstr ""
+"本轮的估计酬报。计算的方法是（您的得分）÷（总体的得分）。估计酬报可能每次刷新"
+"的时候会变。"
+
+#: templates/token-manage.html:55
+msgid ""
+"Reward from blocks with less than 100 confirmations. This may go down when "
+"some block become invalid (refused by Bitcoin network)."
+msgstr "从少过１００确认的分段的酬报。一些分段变成不效后，这个数目可能会降低。"
+
+#: templates/token-manage.html:56
+msgid "This is your real reward waiting to send to your wallet."
+msgstr "这是您真正还没进您钱包的酬报。"
+
+#: templates/token-manage.html:57
+msgid "Bitcoins will be send to this Bitcoin wallet."
+msgstr "比特币会被发送到这个比特币钱包。"
+
+#: templates/token-manage.html:58
+msgid ""
+"Bitcoins will be sent to you once confirmed_reward crosses over this value. "
+"Pool is processing payments once per hour."
+msgstr ""
+"坚信的酬报超过这个数量后，比特币会被发送给您。付款在每小时里会被处理一次。"
+
+#: templates/token-manage.html:63
+msgid "Expected HTTP statuses:"
+msgstr "预期HTTP状态："
+
+#: templates/token-manage.html:65
+msgid "Request was successful, response contains JSON data described above."
+msgstr "请求成功，响应包含以上的JSON数据。"
+
+#: templates/token-manage.html:66
+msgid "Request was not successful, token is probably invalid."
+msgstr "请求不成功，令牌可能是无效的。"
+
+#: templates/token-manage.html:67
+msgid "Server is down for maintenance or there is some unexpected error."
+msgstr "服务器停机维护，或者是有一些意想不到的错误。"
+
+#: templates/token-manage.html:70
+#, python-format
+msgid "All requests are cached for %(timeout)s seconds."
+msgstr ""
+
+#: templates/transactions.html:2
+msgid "Transactions"
+msgstr "交易"
+
+#: templates/transactions.html:8
+msgid "Total:"
+msgstr "总体："
+
+#: templates/transactions.html:13
+msgid "Date"
+msgstr "日期"
+
+#: templates/transactions.html:13
+msgid "Address"
+msgstr "地址"
+
+#: templates/transactions.html:13
+msgid "Amount"
+msgstr "数目"
+
+#: templates/transactions.html:35
+msgid "No transactions yet"
+msgstr "还没有交易"
+
+#: templates/wallet_confirm.html:4 templates/wallet_confirm.html.py:9
+msgid "Wallet change confirmation"
+msgstr "确定更改钱包"
+
+#: templates/wallet_confirm.html:4 templates/wallet_confirm.html.py:20
+#: templates/wallet_confirm.html:30
+msgid "success"
+msgstr "成功"
+
+#: templates/wallet_confirm.html:5
+msgid "Your wallet has been succesfully changed."
+msgstr "您的钱包已成功地更改。"
+
+#: templates/wallet_confirm.html:9 templates/wallet_confirm.html.py:15
+msgid "failure"
+msgstr "失败"
+
+#: templates/wallet_confirm.html:10
+msgid "You provided incorrect confirmation link for wallet change."
+msgstr "对于更改钱包，您给了不正确的确认链环。"
+
+#: templates/wallet_confirm.html:11
+msgid "However, you can resend confirmation email from profile page."
+msgstr "从个人资料页，您可以重发确认电邮。"
+
+#: templates/wallet_confirm.html:15 templates/wallet_confirm.html.py:30
+msgid "Wallet change resend"
+msgstr "重发钱包更改"
+
+#: templates/wallet_confirm.html:16
+msgid "You don't have any wallet change in progress, there's nothing to send."
+msgstr "您没有任何钱包更改，没有什么送。"
+
+#: templates/wallet_confirm.html:20 templates/wallet_confirm.html.py:25
+msgid "Wallet change"
+msgstr "更改钱包"
+
+#: templates/wallet_confirm.html:25
+msgid "request cancelled"
+msgstr "请求取消"
+
+#: templates/wallet_confirm.html:26
+msgid "Request for changing wallet address has been cancelled."
+msgstr "更改钱包地址的请求已被取消。"
+
+#: templates/wallet_confirm.html:34
+msgid "Please continue to"
+msgstr "请接着到："
+
+#: templates/wallet_confirm.html:34
+msgid "your profile page"
+msgstr "您的个人资料页"
+
+#: templates/whitelist.html:5
+msgid "Edit IP whitelist entry"
+msgstr "编辑IP地址百名单的条目"
+
+#: templates/whitelist.html:7
+msgid "Whitelist has been updated."
+msgstr "白名单已被更新"
+
+#: templates/whitelist.html:11
+msgid "You reached maximum allowed IPs per account."
+msgstr "你达到每个帐户最多允许的IP地址。"
+
+#: templates/worker.html:5
+msgid "Edit worker"
+msgstr "编辑工人"
+
+#: templates/worker.html:7
+msgid "Worker has been updated."
+msgstr "工人已被更新"
+
+#: templates/worker.html:11
+msgid "Worker with this name already exists."
+msgstr "这工人的名称已经存在"
+
+#: templates/worker.html:17
+msgid "Applying changes on connected worker may take up to 30 minutes."
+msgstr "要更改连接的工人最长可能需要30分钟。"
+
+#~ msgid "phoenix GUI miner"
+#~ msgstr "phoenix的GUI矿工"
+
+#~ msgid "Diablo's GPU miner"
+#~ msgstr "Diablo的GPU矿工"
+
+#~ msgid "puddinpop's CPU/GPU miners"
+#~ msgstr "puddinpop的CPU/GPU矿工"

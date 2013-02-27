@@ -1,0 +1,1649 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 17:15+0100\n"
+"PO-Revision-Date: 2012-07-26 14:05-0300\n"
+"Last-Translator: Wagner R. de Morais <wagnerrdemorais@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: forms.py:24
+msgid ""
+"Only alphabetical characters, numbers and underscore are allowed in username!"
+msgstr ""
+"Sólo éres permitido caracteres alfabéticos, números y underline en el nombre "
+"de usuário!"
+
+#: forms.py:31
+#, python-format
+msgid "The username \"%(username)s\" is already taken."
+msgstr "El nombre de usuario \"%(username)s\" ya está tomada."
+
+#: forms.py:40 forms.py:134 templates/hall-of-fame.html:7
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: forms.py:41
+msgid "Bitcoin address"
+msgstr "Bitcoin dirección"
+
+#: forms.py:42
+msgid "Your <strong>Bitcoin</strong> address for receiving rewards"
+msgstr "Su <strong>Bitcoin</strong> dirección para recibir recompensas"
+
+#: forms.py:43 forms.py:85
+msgid "Send threshold"
+msgstr "Umbral de enviar"
+
+#: forms.py:43
+msgid "Coins will be sent once the reward crosses over the threshold"
+msgstr ""
+"Se enviará monedas una vez que la recompensa una vez que la recompensa cruza "
+"el umbral"
+
+#: forms.py:46
+msgid "Estimated reward"
+msgstr "Recompensa estimada"
+
+#: forms.py:46
+msgid "Estimated reward for current round"
+msgstr "Recompensa estimada para la actual ronda"
+
+#: forms.py:48 forms.py:89
+msgid "Unconfirmed reward"
+msgstr "Recompensa aún no ha confirmado"
+
+#: forms.py:48 forms.py:89
+msgid "Pending reward from unconfirmed blocks"
+msgstr "Recompensas pendientes en espera de los bloques no confirmados"
+
+#: forms.py:49 forms.py:90
+msgid "Confirmed reward"
+msgstr "Recompensas confirmada"
+
+#: forms.py:50 forms.py:91
+msgid "Your confirmed balance from valid blocks"
+msgstr "Su saldo confirmado a partir de bloques válidos."
+
+#: forms.py:51
+msgid "Total reward"
+msgstr "Recompensa total"
+
+#: forms.py:52
+msgid "Unconfirmed + Confirmed rewards"
+msgstr "Recompensas no confirmadas + recompensas confirmadas"
+
+#: forms.py:54
+msgid "Username in stats"
+msgstr "Nombre de usuario en las estadísticas"
+
+#: forms.py:54
+msgid "Show my username in public server stats"
+msgstr ""
+"Mostrar mi nombre de usuario en los servidores de estatísticas públicas"
+
+#: forms.py:56
+msgid "Notify me on payout"
+msgstr "Notificarme de pago"
+
+#: forms.py:56
+msgid "Send email when the system sends me a payment"
+msgstr "Enviar un e-mail cuando el sistema me envia un pago"
+
+#: forms.py:69
+msgid ""
+"This is not a valid Bitcoin address. Please install Bitcoin client or "
+"register some web wallet to get one."
+msgstr ""
+"Esto no es una dirección valida Bitcoin. por favor, instale el cliente o "
+"inscríbase en una cartera en la internet."
+
+#: forms.py:75 forms.py:104
+#, fuzzy
+msgid "Sending threshold must be >= 0.05!"
+msgstr "El umbral de enviar debe ser >=0.01"
+
+#: forms.py:78
+#, fuzzy
+msgid "Sending threshold must be <= 10! I'm not a bank :-)."
+msgstr "El umbral de enbio debe ser <= 100! Yo no soy un banco :-)."
+
+#: forms.py:83
+msgid "Namecoin wallet"
+msgstr "Cartera Namecoin"
+
+#: forms.py:84
+msgid "Your <strong>Namecoin</strong> address for receiving rewards"
+msgstr "Su <strong>Namecoin</strong> dirección para recibir recompensas"
+
+#: forms.py:85
+msgid "Namecoins will be sent once the reward crosses over the threshold"
+msgstr "Los Namecoins se enviará una vez que la recompensa se cruza el umbral"
+
+#: forms.py:98
+msgid ""
+"This is not a valid Namecoin address. Please install Namecoin client to get "
+"one."
+msgstr ""
+"Esto no es una dirección válida namecoin. Por favor, instale el cliente para "
+"obtener una Namecoin"
+
+#: forms.py:107
+msgid "Sending threshold must be <= 20! I'm not a bank :-)."
+msgstr "El umbral de enbio debe ser <=20! Yo no soy un banco :-)."
+
+#: forms.py:113
+msgid "IP address/Domain"
+msgstr "Dirección IP/Dominio"
+
+#: forms.py:113
+msgid "Enter IP address from which miner connections will be accepted."
+msgstr "Introducir la dirección IP de cada minero se aceptarán."
+
+#: forms.py:118
+msgid "Login suffix"
+msgstr "Sufijo de autenticacion"
+
+#: forms.py:118
+msgid "Worker login will be &lt;your username&gt;.&lt;login suffix&gt;"
+msgstr "Acceso del Trabajador será &lt;your username&gt;.&lt;login suffix&gt;"
+
+#: forms.py:119 templates/profile.html:119
+msgid "Password"
+msgstr "Contraseña"
+
+#: forms.py:120
+msgid "LP support"
+msgstr "Apoyo LP"
+
+#: forms.py:120
+msgid ""
+"Enable 'long polling' extension for this worker. Turning OFF usually "
+"requires a miner restart."
+msgstr ""
+"Permitir la aplicación de grande pool para este trabajador. Desactivar "
+"generalmente requiere lo reinicio del minero."
+
+#: forms.py:130
+msgid "Dots are not allowed in worker name"
+msgstr "Puntos no son permitidos en el nombre de trabajador"
+
+#: forms.py:134
+msgid "Enter a valid username."
+msgstr "Entra un nombre de usuario valido."
+
+#: forms.py:135
+msgid "Email"
+msgstr "E-mail"
+
+#: forms.py:136
+msgid "Required password"
+msgstr "Contraseña requerida"
+
+#: forms.py:137
+msgid "Password again"
+msgstr "Contraseña de nuevo"
+
+#: forms.py:141
+msgid "Passwords are different!"
+msgstr "Contraseñas son diferentes!"
+
+#: models.py:42
+#, python-format
+msgid "Maximum %(count)d whitelisted IPs per account allowed."
+msgstr "Se permite un máximo %(count)d de  IPs confiables por cuenta."
+
+#: models.py:87
+#, python-format
+msgid "<User%(id)d>"
+msgstr "<User%(id)d>"
+
+#: models.py:108
+msgid "Token not generated yet"
+msgstr "Token aún no generado"
+
+#: models.py:110 views.py:500 views.py:1229
+msgid "Invalid token"
+msgstr "Token inválido"
+
+#: models.py:127
+msgid "[mining.bitcoin.cz] Wallet change confirmation"
+msgstr "[mining.bitcoin.cz] Confirmación del cambio de la cartera"
+
+#: models.py:129 templates/stats.html:7 templates/stats.html.py:18
+msgid "Namecoin"
+msgstr "Namecoin"
+
+#: models.py:129 templates/stats.html:18
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: registration.py:45
+msgid "[mining.bitcoin.cz] New account confirmation"
+msgstr "[mining.bitcoin.cz] Confirmación de nueva cuenta"
+
+#: views.py:705
+msgid "[mining.bitcoin.cz] Delete account confirmation"
+msgstr "[mining.bitcoin.cz] Confirmación de exclusión de la cuenta"
+
+#: views.py:926
+msgid "Namecoin settings has been updated."
+msgstr "Los ajustes de Namecoin se ha actualizado."
+
+#: views.py:974
+msgid "Account has been updated."
+msgstr "La Cuenta se ha actualizada."
+
+#: views.py:1011 views.py:1246
+msgid "Account banned. Contact pool administrator at info@bitcoin.cz"
+msgstr ""
+"Se ha prohibido la cuenta. Contact el administrador de la minería de grupo "
+"en el e-mail info@bitcoin.cz"
+
+#: templates/account_delete.html:2 templates/profile.html:2
+#: templates/profile.html.py:10 templates/settings.html:2
+#: templates/template.html:64 templates/token-manage.html:2
+#: templates/token-manage.html.py:6 templates/transactions.html:2
+#: templates/whitelist.html:5 templates/worker.html:5
+msgid "My account"
+msgstr "Mi cuenta"
+
+#: templates/account_delete.html:2 templates/account_delete.html.py:5
+#: templates/settings.html:17 templates/settings.html.py:25
+msgid "Delete my account"
+msgstr "Eliminar mi cuenta"
+
+#: templates/account_delete.html:9 templates/wallet_confirm.html:31
+msgid ""
+"Confirmation email has been send. Please check your mailbox and follow the "
+"link."
+msgstr ""
+"E-mail de confirmación ha sido enviado. Por favor, revise su bandeja de "
+"entrada y siga el link."
+
+#: templates/account_delete.html:14
+msgid ""
+"Confirmation link which you provided is not valid. Please be sure that your "
+"confirmation link has been generated in less than one hour. If your current "
+"link is older than one hour, please go to your profile settings and retry "
+"your request."
+msgstr ""
+"El link de confirmación que le proporcionó no es válido. Por favor, "
+"asegúrese de que el link de confirmación se ha generado en menos de una "
+"hora. Si su link actual tiene más de una hora, por favor vaya a la "
+"configuración de su cuenta y crea una nueva solicitud."
+
+#: templates/confirm.html:4
+msgid "Your account is already activated."
+msgstr "Tu cuenta ya está activada."
+
+#: templates/confirm.html:4 templates/confirm.html.py:21
+#, python-format
+msgid "Please <a href='%(url)s'>login</a> to continue."
+msgstr "Por favor <a href='%(url)s'> inicie la sesioón</a> para contunuar."
+
+#: templates/confirm.html:8
+msgid "Your account has been activated!"
+msgstr "Su cuenta ha sido activada!"
+
+#: templates/confirm.html:10
+msgid ""
+"Your pool account is now ready for mining. Please use following credentials "
+"in your mining software:"
+msgstr ""
+"Su cuenta del grupo está ahora listo para la minería. Por favor, use las "
+"siguientes credenciales en el software de la minería."
+
+#: templates/confirm.html:14
+msgid "Worker login:"
+msgstr "Login del trabajador:"
+
+#: templates/confirm.html:15
+msgid "Worker password:"
+msgstr "Contraseña del trabajador:"
+
+#: templates/confirm.html:18
+msgid "This is not your website login, use it only for your mining software."
+msgstr ""
+"Esto no es su usuario del sitio, sólo lo utiliza para el software de la "
+"minería."
+
+#: templates/confirm.html:19
+msgid "You can change it or register more workers on your profile page."
+msgstr ""
+"Usted puede cambiar el trabajador o se registra otros trabajadoresen su "
+"página de perfil."
+
+#: templates/email_account_delete.html:1 templates/email_payout.html:1
+#: templates/email_payout_nmc.html:1 templates/email_registration.html:1
+#: templates/email_wallet_change.html:1
+msgid "Hello"
+msgstr "¡Hola!"
+
+#: templates/email_account_delete.html:3
+#, python-format
+msgid ""
+"I'm sending you this email because somebody requested deletion of your "
+"account on <a href='%(url)s'>bitcoin.cz</a> mining pool!"
+msgstr ""
+"Estoy enviando este E-mail porque alguien pidió la eliminación de su cuenta "
+"en <a href='%(url)s'>bitcoin.cz</a> pool de minería!"
+
+#: templates/email_account_delete.html:6
+#, python-format
+msgid ""
+"If you really want to delete your account <strong>%(username)s</strong>, "
+"please follow <a href='%(url)s%(token)s/%(timestamp)s'>this confirmation "
+"link</a>."
+msgstr ""
+"Sí realmente quieres eliminar tu cuenta de <strong>%(username)s</strong>, "
+"por favor, siga <a href='%(url)s%(token)s/%(timestamp)s'>este enlace de "
+"confirmación</a>."
+
+#: templates/email_account_delete.html:7
+msgid ""
+"The link is valid for one hour. If you missed this email and link isn't "
+"valid anymore, please go to the website and retry the request."
+msgstr ""
+"El link es válido durante una hora, si te perdiste este E-mail, el link ya "
+"no es válida, por favor, visite el sitio y vuelva a intentar la petición."
+
+#: templates/email_account_delete.html:11
+msgid ""
+"Remaining balance of this account will be considered as a pool donation. If "
+"you forgot to request the payout, you have the last chance right now."
+msgstr ""
+"Saldo de la cuenta se considerará como una donación del grupo, Si se le "
+"olvido solicitar el pago, usted tiene la última oportunidad en este momento."
+
+#: templates/email_account_delete.html:15
+msgid ""
+"If you didn't initiate this request, please don't click the confirmation "
+"link above,"
+msgstr ""
+"Si no ha iniciado esta solicitud, por favor no haga clic en el link de "
+"confirmación arriba."
+
+#: templates/email_account_delete.html:16
+#: templates/email_wallet_change.html:12
+msgid ""
+"change your password immediately and report this incident to info@bitcoin.cz."
+msgstr ""
+"Cambiar tu contraseña inmediatamente y reporta el incidente a info@bitcoin."
+"cz."
+
+#: templates/email_account_delete.html:21 templates/email_payout.html:11
+#: templates/email_payout_nmc.html:11 templates/email_registration.html:9
+#: templates/email_wallet_change.html:17
+msgid "Best regards,"
+msgstr "Cumprimentos,"
+
+#: templates/email_account_delete.html:23 templates/email_payout.html:13
+#: templates/email_payout_nmc.html:13 templates/email_registration.html:11
+#: templates/email_wallet_change.html:19
+msgid "The Pool Operator"
+msgstr "El Operador Del Grupo"
+
+#: templates/email_payout.html:3
+#, python-format
+msgid ""
+"Your reward for mining with the <strong><a href='%(url)s'>bitcoin.cz</a></"
+"strong> mining pool service has exceeded threshold of %(threshold)s BTC."
+msgstr ""
+"Su recompensa por la mineria con el <strong><a href='%(url)s'>bitcoin.cz</"
+"a></strong> servivio de la minería de la piscina ha superado el umbral de"
+"%(threshold)s BTC."
+
+#: templates/email_payout.html:5
+#, python-format
+msgid ""
+"Amount <strong>%(amount)s BTC</strong> has been transfered to your address "
+"<strong>%(wallet)s</strong> at %(date)s UTC."
+msgstr ""
+"Cantidad <strong>%(amount)s BTC</strong> se ha transferido a su dirección "
+"<strong>%(wallet)s</strong> en %(date)s UTC."
+
+#: templates/email_payout.html:7
+#, fuzzy, python-format
+msgid ""
+"Payment processing through Bitcoin network may take between 30 minutes to 3 "
+"hours. You can watch current payment status on <a href='http://www."
+"blockchain.info/address/%(wallet)s'>http://www.blockchain.info/address/"
+"%(wallet)s</a>. If you see payment on Blockchain.infchain.info in your "
+"Bitcoin client, please verify that your client is up to the latest block or "
+"ask on Bitcoin forum for any other help."
+msgstr ""
+"El procesamiento de pagos a través de la red Bitcoin puede tardar entre 30 "
+"minutos a 3 horas. Usted puede ver el estado de pago actual de <a "
+"href='http://www.blockexplorer.com/address/%(wallet)s'>http://www."
+"blockexplorer.com/address/%(wallet)s</a>. Si usted ve el pago en el Bloque "
+"Explorer y no en el cliente Bitcoin, por favor verifique que su cliente es "
+"hasta el último bloque o perguntar en el foro Bitcoin para cualquier otro "
+"tipo de ayuda."
+
+#: templates/email_payout_nmc.html:3
+#, python-format
+msgid ""
+"Your Namecoin reward for mining with the <strong><a href='%(url)s'>bitcoin."
+"cz</a></strong> mining pool service has exceeded threshold of %(threshold)s "
+"NMC."
+msgstr ""
+"Su recompensa Namecoin para la mineria con la <strong><a "
+"href='%(url)s'>bitcoin.cz</a></strong>ha superado el umbral de %(threshold)s "
+"NMC."
+
+#: templates/email_payout_nmc.html:5
+#, python-format
+msgid ""
+"Amount <strong>%(amount)s NMC</strong> has been transfered to your wallet "
+"<strong>%(wallet)s</strong> at %(date)s UTC."
+msgstr ""
+"Cantidad <strong>%(amount)s NMC</strong> ha sido transferida a su cartera "
+"<strong>%(wallet)s</strong> en %(date)s UTC."
+
+#: templates/email_payout_nmc.html:7
+#, python-format
+msgid ""
+"Payment processing through Namecoin network may take between 30 minutes to 3 "
+"hours. You can watch current payment status on <a href='http://explorer.dot-"
+"bit.org/a/%(wallet)s'>http://explorer.dot-bit.org/a/%(wallet)s</a>. If you "
+"see payment on Block Explorer and not in your Namecoin client, please verify "
+"that your client is up to the latest block or ask on Namecoin forum for any "
+"other help."
+msgstr ""
+"El processamiento de pagos através de la red Namecoin puede tardar entre 30 "
+"minutos a 3 horas. Usted puede ver el estado de pago actual en <a "
+"href='http://explorer.dot-bit.org/a/%(wallet)s'>http://explorer.dot-bit.org/"
+"a/%(wallet)s</a>. Si usted ve el pago en el Bloque Explorer y no en el "
+"cliente Namecoin, por favor verifique que su cliente es hasta el último "
+"bloque o perguntar en el foro Namecoin para cualquier otro tipo de ayuda."
+
+#: templates/email_registration.html:3
+msgid "thank you for signing up for an bitcoin.cz account!"
+msgstr "Gracias por firmar una cuenta bitcoin.cz!"
+
+#: templates/email_registration.html:5
+#, python-format
+msgid ""
+"To activate your account, click to this <a href='%(url)s"
+"%(activation_key)s'>activation link</a>"
+msgstr ""
+"Para activar su cuenta, clic en el enlace <a href='%(url)s"
+"%(activation_key)s'>activation link</a>"
+
+#: templates/email_wallet_change.html:3
+#, python-format
+msgid ""
+"this email is sent due to a request to change your <strong>%(type)s</strong> "
+"wallet to the new address: <strong>%(wallet)s</strong>. "
+msgstr ""
+"este E-mail se envia debido a una solicitud de cambio de <strong>%(type)s</"
+"strong> cartera a la nueva dirección: <strong>%(wallet)s</strong>. "
+
+#: templates/email_wallet_change.html:7
+#, python-format
+msgid ""
+"To authorize this request, please <a href='%(url)s%(wallet_token)s'>follow "
+"this link</a>."
+msgstr ""
+"Para autorizar esta solicitud, por favor <a href='%(url)s"
+"%(wallet_token)s'>siga este enlace</a>."
+
+#: templates/email_wallet_change.html:11
+#, python-format
+msgid ""
+"If you didn't initiate this change please <a href='%(url)s%(wallet)s'>cancel "
+"this request</a>, "
+msgstr ""
+"Si usted no inició este cambio favor <a href='%(url)s%(wallet)s'>cancelar "
+"esta solicitud</a>, "
+
+#: templates/hall-of-fame.html:2 templates/stats.html:2
+msgid "Stats"
+msgstr "Estadísticas"
+
+#: templates/hall-of-fame.html:4 templates/template.html:67
+msgid "Hall of Fame"
+msgstr "Hall of Fame"
+
+#: templates/hall-of-fame.html:4
+msgid "(TOP50 miners)"
+msgstr "(TOP 25 mineros)"
+
+#: templates/hall-of-fame.html:7 templates/profile.html:120
+#: templates/profile.html.py:170
+msgid "Found blocks"
+msgstr "Bloques encontrados"
+
+#: templates/hall-of-fame.html:7
+msgid "Hash rate"
+msgstr "Tasa de hash"
+
+#: templates/hall-of-fame.html:19 templates/profile.html:114
+#: templates/profile.html.py:126
+msgid "Mhash/s"
+msgstr "Mhash/s"
+
+#: templates/hall-of-fame.html:20 templates/profile.html:148
+msgid "yes"
+msgstr "Sí"
+
+#: templates/hall-of-fame.html:20 templates/profile.html:149
+msgid "no"
+msgstr "No"
+
+#: templates/homepage.html:3
+msgid "Sign up HERE"
+msgstr "Regístrate aquí"
+
+#: templates/homepage.html:7
+msgid "What is Bitcoin Pooled Mining?"
+msgstr "Lo que es agrupación de minería de Bitcoin?"
+
+#: templates/homepage.html:9
+msgid ""
+"Bitcoin pooled mining is a way for multiple users to work together to mine "
+"<a href='http://www.weusecoins.com'>bitcoins</a>, and to share the benefits "
+"fairly."
+msgstr ""
+"La agrupación de mineracion de Bitcoin es una manera para que varios "
+"usuarios puedan trabajar juntos para la mina y compartir los beneficios de "
+"forma justa."
+
+#: templates/homepage.html:12
+msgid "Why do I need bitcoin pool?"
+msgstr "¿Por Qué necesito del grupo de mineración de Bitcoin?"
+
+#: templates/homepage.html:14
+msgid ""
+"Bitcoins are ordinarily only ever created in chunks of 25 at a time, with "
+"the whole 25 paid to a single person. Furthermore, the race to get the 25 "
+"BTC prize in a given block is highly competitive."
+msgstr ""
+"Bitcoins son ordinariamente sólo se crea en trozos de 25 piezas a la vez, "
+"con todos os 25 son pagos a una sola persona. Además, la carrera para "
+"obtener el premio de 25 BTC en un bloque dado es altamente competitivo."
+
+#: templates/homepage.html:17
+msgid ""
+"If you set out mining on your own, it may be a long time before you can make "
+"a return. Pooled mining allows you to receive smaller, more frequent, "
+"steadier payouts instead. If you have a slower computer, or a CPU miner, "
+"then pooled mining may be the only way that you will ever mine any bitcoins "
+"at all."
+msgstr ""
+"Si se estabelece la minería solo puede ser un largo tiempo hasta que reciba "
+"un retorno. La minería agrupada le permite recibir más pequeñas, más "
+"frecuentes y mas estables en su lugar. Si usted tiene un equipo más lento, o "
+"un minero por CPU, la minería agrupada puede ser la única manera de que "
+"usted haya extraer algunas Bitcoin en absoluto."
+
+#: templates/homepage.html:28
+msgid "How does bitcoin pool work?"
+msgstr "¿Cómo funciona el grupo de mineración de Bitcoins?"
+
+#: templates/homepage.html:30
+msgid ""
+"Our server gives users blocks of very low difficulty to solve. Each solution "
+"found is registered as one 'share'. Occasionally, a solution will happen to "
+"also meet the full-strength difficulty requirements of the Bitcoin network, "
+"resulting in a successful 25 BTC minting."
+msgstr ""
+"Nuestro servidor da a los usuarios bloques de dificultad muy baja para "
+"resolver. Cada solución encontrada está registrada como un 'share'. De vez "
+"en cuando aparece una solución que también cumplan los requisitos para la "
+"alta complejidad de la red Bitcoin, dando como resultado una exitosa minería "
+"de 25 BTC."
+
+#: templates/homepage.html:33
+msgid ""
+"This 25 BTC is divided among all of the users that contributed to that "
+"round, weighted by the number of shares that they earned. Therefore, the "
+"reward earned by a given user is given by the following formula:"
+msgstr ""
+"Este 25 BTC se divide entre todos los usuarios que contribuyeron a esa "
+"ronda, ponderado por el número de 'shares' que cada un  haz ganado. Por lo "
+"tanto, el premio ganado por un usuario determinado está dado or la siguiente "
+"fórmula:"
+
+#: templates/homepage.html:35
+#, fuzzy, python-format
+msgid ""
+"(25 BTC + block fees - 2%% fee) * (shares found by user's workers) / (total "
+"shares in current round)"
+msgstr ""
+"(50 BTC - 1 BTC de tarifa) * ('shares' encontrados por los trabajadores de "
+"los usuarios) / (total de 'shares' en la actual ronda)"
+
+#: templates/homepage.html:37
+msgid ""
+"Shares do not carry over from one round to the next. When the pool mine a "
+"block, only users who worked on that block are rewarded, and only for work "
+"they did on that block. This is an unavoidable consequence of the way that "
+"Bitcoin mining in general works."
+msgstr ""
+"Los Shares no se transfieren de una ronda a la siguiente. Cuando el grupo "
+"mina un bloque, sólo los usuarios que trabajaron en ese bloque son "
+"recompensados, y sólo para el trabajo que hicieron en ese bloque. Esto es "
+"una consecuencia inevitable de la forma en que la minería de Bitcoin "
+"funciona."
+
+#: templates/homepage.html:40
+#, python-format
+msgid "The %(fee)s fee is used to keep this service alive."
+msgstr "El %(fee)s cuota se utiliza para mantener vivo a este servicio."
+
+#: templates/homepage.html:43
+msgid "Key features"
+msgstr "Las características clave"
+
+#: templates/homepage.html:45
+msgid "Service lifetime & operator trust"
+msgstr "Servicio por toda la vida & operador de la confianza"
+
+#: templates/homepage.html:45
+msgid ""
+"Users have to trust pool operators, because pools aren't cheat-proof from "
+"the side of the operator."
+msgstr ""
+"Los usuarios tienen que confiar en los operadores de lo grupo, ya que los "
+"grupos no son a prueba de trampas desde el lado del operador. "
+
+#: templates/homepage.html:46
+msgid ""
+"was the first Bitcoin mining pool, has been operating consistently since "
+"December 2010 and has a long history of stable and accurate payouts."
+msgstr ""
+"Fue lo primero grupo de la minería de Bitcoins, ha estado operando "
+"constantemente desde diciembre de 2010 y tiene un largo historial de pagos "
+"estables y precisos."
+
+#: templates/homepage.html:47
+msgid "Namecoin Merged Mining"
+msgstr "Minería combinada de Namecoin"
+
+#: templates/homepage.html:47
+msgid ""
+"The pool has been mining Bitcoins and Namecoins since October 2011. Thanks "
+"to this, users have higher mining income than mining on another Bitcoin-only "
+"pool."
+msgstr ""
+"El grupo ha minado Bitcoin y Namecoins desde octubre de 2011. Gracias a "
+"esto, los usuarios tienen mayores rentas que otro grupo de minería Bitcoin."
+
+#: templates/homepage.html:48
+msgid ""
+"Pool uses a fair distribution of rewards between members, making the pool "
+"hop-resistant. This has been mathematicaly proven."
+msgstr ""
+"El Grupo utiliza una distribución equitativa de beneficios entre los "
+"miembros, lo que es resistente a quedas. Esto ha sido demostrado "
+"matemáticamente."
+
+#: templates/homepage.html:49
+#, python-format
+msgid ""
+"This miner extension improves overall mining efficiency of connected miners "
+"by lowering stale share ratio below %(ratio)s."
+msgstr ""
+"Esta extensión de la mineria mejora la eficiencia de la minería en general "
+"de los mineros conectados mediante la reducción de ratio de cuota de rancio "
+"a continuación %(ratio)s."
+
+#: templates/homepage.html:50
+msgid ""
+"Another miner extension, which improves network efficiency, especially for "
+"fast mining rigs."
+msgstr ""
+"Otra de las posibilidades lo que mejora la eficiencia de la red, "
+"especialmente para las plataformas de mineración rápida."
+
+#: templates/homepage.html:53
+#, python-format
+msgid ""
+"You need to use miner software that supports those features. I recommend you "
+"%(miner1)s or %(miner2)s"
+msgstr ""
+"Es necessario utilizar el software minero que apoya estas características. "
+"Te recomiendo %(miner1)s or %(miner2)s"
+
+#: templates/homepage.html:56
+msgid "How do I get started?"
+msgstr "¿Cómo puedo empezar?"
+
+#: templates/homepage.html:57
+msgid "1. Install Bitcoin miner on your computer"
+msgstr "1. Instale el minero en su computadora"
+
+#: templates/homepage.html:58
+msgid "All major CPU/GPU miners support pooled mining:"
+msgstr ""
+"Todos los mineros más importantes de la CPU/GPU que  suportan la mineracion "
+"en conjunto:"
+
+#: templates/homepage.html:60
+msgid "Kiv's GUI miner (Windows, recommended for beginners)"
+msgstr "Kiv's Gui Miner (Windows, se recomienda para principiantes)"
+
+#: templates/homepage.html:60 templates/homepage.html.py:61
+#: templates/homepage.html:62
+msgid "instructions"
+msgstr "Instrucciones"
+
+#: templates/homepage.html:61
+#, fuzzy
+msgid "ckolivas's CGMINER (GPU/FPGA, recommended for experts)"
+msgstr "ckolivas's CGMINER (CPU/GPU)"
+
+#: templates/homepage.html:62
+msgid "m0mchil's GPU miner"
+msgstr "M0mchil's minero de GPU"
+
+#: templates/homepage.html:65
+msgid "2. Sign up with a bitcoin.cz account"
+msgstr "2. Regístrate con una cuenta de bitcoin.cz"
+
+#: templates/homepage.html:67 templates/login.html:68
+msgid "Sign up"
+msgstr "Regístrate"
+
+#: templates/homepage.html:68
+msgid "Verify email (may be used for troubleshooting)"
+msgstr "Verifica su E-mail (se puede usar para solucionar problemas)"
+
+#: templates/homepage.html:69
+#, python-format
+msgid "<a href='%(url)s'>Login</a> to application"
+msgstr "<a href='%(url)s'>Login</a> de la aplicación"
+
+#: templates/homepage.html:70
+msgid "Enter your wallet address - can be also online wallet registered on"
+msgstr ""
+"Introducir la dirección de su cartera Bitcoin - también puede ser registrado "
+"en una cartera online."
+
+#: templates/homepage.html:70 templates/homepage.html.py:80
+#: templates/homepage.html:82
+msgid "or"
+msgstr "o"
+
+#: templates/homepage.html:71
+#, python-format
+msgid ""
+"<a href='%(url)s'>Register</a> your workers. You can use one worker account "
+"for all your miners, but I recommend to use separate account for every miner "
+"for easier troubleshooting."
+msgstr ""
+"<a href='%(url)s'>Registro</a> a sus trabajadores. Puede utilizar una cuenta "
+"de trabajo para todos los mineros, pero yo recomiendo usar la cuenta "
+"separada para cada minero para facilitar la solución de problemas."
+
+#: templates/homepage.html:74
+msgid "3. Run miner"
+msgstr "3. Ejecutar el minero"
+
+#: templates/homepage.html:76
+#, fuzzy
+msgid ""
+"Run your own GPU/FPGA/ASIC miner with the worker credentials you gave "
+"earlier, and connect it to following URL:"
+msgstr ""
+"Monta tu proprio minero de CPU/GPU con las credenciales de los trabajadores "
+"que usted dio anteriormente, y conectarlo al siguiente URL:"
+
+#: templates/homepage.html:79
+msgid ""
+"Default URL for Stratum and Getwork miners. If you're unsure, use this URL."
+msgstr ""
+
+#: templates/homepage.html:81
+msgid "IPv6, only for Stratum miners"
+msgstr ""
+
+#: templates/homepage.html:83
+msgid "anonymous mining over Tor network"
+msgstr "La minería en el anonimato de la red Tor"
+
+#: templates/homepage.html:85
+msgid ""
+"Only the newest version of poclbm miner have direct support for Tor mining "
+"at this moment."
+msgstr ""
+"Sólo la versión más reciente de minera poclbm tiene el apoyo directo para la "
+"minería de TOR en este momento."
+
+#: templates/homepage.html:88
+msgid "Is it safe?"
+msgstr "¿Es seguro?"
+
+#: templates/homepage.html:90
+msgid ""
+"In theory, as the Bitcoin pool operator, I could keep the 25 BTC from a "
+"block found by the pool for myself. I'm not going to do this, but I "
+"completely accept that people do not trust the pool operator. It is their "
+"freedom of choice, and Bitcoin is about freedom."
+msgstr ""
+"En teoría, ya que soy operador de lo grupo Bitcoin, yo podía mantener el 25 "
+"BTC de un bloque encontrado en el grupo para mí. Yo no voy a hacer esto, "
+"pero acepto que las personas no confían en el operador de lo grupo. Es su "
+"libertad de elección, y Bitcoin es acerca de la libertad."
+
+#: templates/homepage.html:93
+msgid ""
+"I created the Bitcoin pool service with the rising difficulty of mining in "
+"mind because I'd like to return my investment to mining hardware. There used "
+"to be days when I never found a block at all, even with the strongest GPU on "
+"the market, which made me uncomfortable. The periodic micropayments from the "
+"mining pool offer a steadier payout, which lowers the riskiness of my "
+"investment in the Bitcoin market."
+msgstr ""
+"Yo creé el servicio de grupo Bitcoin teniendo en mente la cresciente "
+"dificuldad de minería porque me gustaría que me devuelva la inversión en el "
+"hardware. Antes Había días en que yo no encontre ningun bloque, incluso con "
+"la mejor GPU en el mercado, lo cual me hizo sentir incómodo. Los micropagos "
+"de tempo en tempo de lo grupo de mineración ofrece un pago más estable, lo "
+"que disminuye el grado de riesgo de mi inversión en el mercado Bitcoin."
+
+#: templates/homepage.html:96
+msgid "About"
+msgstr "Sobre"
+
+#: templates/homepage.html:98
+msgid ""
+"You can contact me via email at info(at)bitcoin.cz, or via the bitcointalk."
+"org forum at the username slush. You can also follow pool's <a href='https://"
+"www.facebook.com/MiningBitcoinCz'>Facebook profile</a> for latest news and "
+"updates."
+msgstr ""
+"Puede ponerse en contacto conmigo por correo electrónico a info(arroba)"
+"bitcoin.cz, oa través del foro de bitcointalk.org en el nombres de usuario "
+"granizados. También puede seguir o grupo <a href='https://www.facebook.com/"
+"MiningBitcoinCz'> Perfil de Facebook </a> para obtener las últimas noticias "
+"y actualizaciones."
+
+#: templates/login.html:45
+msgid "Login to bitcoin.cz"
+msgstr "Inicia sessión en bitcoin.cz"
+
+#: templates/login.html:48
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+"Su nombre de usuario y la contraseña no coinciden. Por favor, inténtelo de "
+"nuevo."
+
+#: templates/login.html:67
+msgid "Forgot username/password?"
+msgstr "¿Has olvidado tu nombre de usuario/contraseña?"
+
+#: templates/login.html:68
+msgid "Don't have an account?"
+msgstr "¿Todavía no tienes una cuenta?"
+
+#: templates/msg_pending_wallet.html:1
+#, python-format
+msgid ""
+"You have pending request for changing <strong>%(currency)s</strong> wallet "
+"to '%(wallet_pending)s'."
+msgstr ""
+"Usted tiene pendiente la solicitud de cambio de  <strong>%(currency)s</"
+"strong> da cartera para '%(wallet_pending)s'."
+
+#: templates/msg_pending_wallet.html:4
+#, python-format
+msgid "Email confirmation has been sent to email '%(email)s'."
+msgstr ""
+"E-mail de confirmación ha sido enviado al correo electrónico '%(email)s'."
+
+#: templates/msg_pending_wallet.html:5
+msgid "Please check your mailbox and follow confirmation link."
+msgstr "Por favor, revise su E-mail y siga el link de confirmación."
+
+#: templates/msg_pending_wallet.html:6
+#, python-format
+msgid ""
+"If you didn't receive confirmation email yet, you can also <a "
+"href='%(url_resend)s%(wallet_pending)s'>resend confirmation</a>."
+msgstr ""
+"Si usted aún no recibió el E-mail de confirmación, también puede <a "
+"href='%(url_resend)s%(wallet_pending)s'>volver a enviar la confirmación</a>."
+
+#: templates/msg_pending_wallet.html:7
+#, python-format
+msgid ""
+"If you didn't initiate this change please <a href='%(url_cancel)s"
+"%(wallet_pending)s'>cancel the request</a> and <a "
+"href='%(url_password_reset)s'>change your password</a> immediately."
+msgstr ""
+"Si usted no inició este cambio por favor <a href='%(url_cancel)s"
+"%(wallet_pending)s'>cancelar la solicitud</a> y <a "
+"href='%(url_password_reset)s'>cambiar la contraseña</a> inmediatamente."
+
+#: templates/password_reset.html:45
+msgid "Password reset"
+msgstr "Redefinición de contraseña"
+
+#: templates/password_reset.html:46
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and I'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+"¿Olvidó su contraseña? Introduzca su dirección de e-mail, y voy a por correo "
+"electrónico las instrucciones para configurar una nueva."
+
+#: templates/password_reset.html:57
+msgid "Reset my password"
+msgstr "Restablecer mi contraseña"
+
+#: templates/password_reset.html:64
+msgid "Enter new password"
+msgstr "Escriba la nueva contraseña"
+
+#: templates/password_reset.html:65
+msgid ""
+"Please enter your new password twice so I can verify you typed it in "
+"correctly."
+msgstr ""
+"Por favor, introduzca su nueva contraseña dos veces para que yo pueda "
+"verificar que usted ha escrito correctamente."
+
+#: templates/password_reset.html:81
+msgid "Change my password"
+msgstr "Cambiar mi contraseña"
+
+#: templates/password_reset.html:87
+msgid "Password reset complete"
+msgstr "Restablecimiento de la contraseña completo"
+
+#: templates/password_reset.html:88
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr ""
+"Su contraseña se ha establecido. Usted puede seguir adelante e iniciar "
+"sesión ahora."
+
+#: templates/password_reset.html:89
+msgid "Log in"
+msgstr "Entrar"
+
+#: templates/password_reset_done.html:44
+msgid "Password reset successful"
+msgstr "Contraseña reajustada con éxito"
+
+#: templates/password_reset_done.html:45
+msgid ""
+"I've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+"Te he enviado por correo electrónico las instrucciones para configurar tu "
+"contraseña a la dirección de correo electrónico que ha enviado. Usted debe "
+"estar recibiendo en breve."
+
+#: templates/profile.html:4 templates/settings.html:4
+#: templates/token-manage.html:4 templates/transactions.html:4
+#: templates/whitelist.html:3 templates/worker.html:3
+msgid "Logout"
+msgstr "Cerrar sessión"
+
+#: templates/profile.html:5 templates/settings.html:2
+#: templates/settings.html.py:6
+msgid "Account settings"
+msgstr "Configuración de la cuenta"
+
+#: templates/profile.html:6 templates/transactions.html:6
+msgid "Payout history"
+msgstr "Historia de lo pago"
+
+#: templates/profile.html:7 templates/token-manage.html:2
+#: templates/token-manage.html.py:6
+msgid "Manage API tokens"
+msgstr "Administrar tokens API"
+
+#: templates/profile.html:50 templates/profile.html.py:74
+#: templates/whitelist.html:16 templates/worker.html:18
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/profile.html:58
+msgid "Show Namecoin settings"
+msgstr "Mostrar la configuración de Namecoin"
+
+#: templates/profile.html:59
+msgid "Merged mining for Namecoin"
+msgstr "La minería combinada de Namecoin"
+
+#: templates/profile.html:59
+msgid ""
+" is extra income for pool members. Please fill your Namecoin settings to "
+"start collecting Namecoins!"
+msgstr ""
+" es el ingreso adicional para los miembros del grupo. Por favor, rellene los "
+"ajustes Namecoin para comenzar a recoger Namecoins!"
+
+#: templates/profile.html:63
+msgid "Namecoin settings"
+msgstr "Configuración Namecoin"
+
+#: templates/profile.html:88
+msgid "IP Whitelist"
+msgstr "Lista de IPs fiables"
+
+#: templates/profile.html:91
+msgid "You reached maximum of allowed IPs per account."
+msgstr "Has alcanzado el máximo de direcciones IP permitidas por cuenta."
+
+#: templates/profile.html:93
+msgid "Add new IP or domain to whitelist"
+msgstr "Agregar nuevo IP o dominio a la lista de fiables"
+
+#: templates/profile.html:96
+msgid "Allowed IP/DNS"
+msgstr "IP/DNS permitidoS"
+
+#: templates/profile.html:96
+msgid "Resolved IP"
+msgstr "Resolve IP"
+
+#: templates/profile.html:96
+msgid "Updated at"
+msgstr "Actualizado en"
+
+#: templates/profile.html:96 templates/profile.html.py:129
+msgid "Actions"
+msgstr "Acciones"
+
+#: templates/profile.html:98
+msgid " (Your current IP address)"
+msgstr " (Su dirección IP actual)"
+
+#: templates/profile.html:105 templates/profile.html.py:156
+msgid "Delete"
+msgstr "Borrar"
+
+#: templates/profile.html:113
+msgid "Workers"
+msgstr "Trabajadores"
+
+#: templates/profile.html:114
+msgid "Average hashrate in last 10 rounds:"
+msgstr "Tasa media de hash en los últimos 10 rondas:"
+
+#: templates/profile.html:116
+msgid "Register new worker"
+msgstr "Registro de nuevo trabajador"
+
+#: templates/profile.html:119
+msgid "Login"
+msgstr "Entrar"
+
+#: templates/profile.html:119
+msgid "Difficulty"
+msgstr "Dificultad"
+
+#: templates/profile.html:122 templates/stats.html:15
+msgid "Current shares"
+msgstr "Shares actuales"
+
+#: templates/profile.html:123
+msgid "Score"
+msgstr "Puntuación"
+
+#: templates/profile.html:125
+msgid "Last share at"
+msgstr "Share passado en "
+
+#: templates/profile.html:127
+msgid "LP"
+msgstr "LP"
+
+#: templates/profile.html:128
+msgid "Stratum"
+msgstr ""
+
+#: templates/profile.html:145
+msgid "on"
+msgstr "Activa"
+
+#: templates/profile.html:145
+msgid "off"
+msgstr "desactivado"
+
+#: templates/profile.html:153
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/profile.html:154 templates/settings.html:22
+msgid "Really?"
+msgstr "¿En serio?"
+
+#: templates/profile.html:154
+msgid "All worker stats will be lost!"
+msgstr "Todas las estadísticas de los trabajadores se perderán!"
+
+#: templates/profile.html:162
+msgid "You don't have any worker yet. Register one right now!"
+msgstr "Usted aún no tiene ningún trabajador. Registrarse uno ahora mismo!"
+
+#: templates/profile.html:167
+msgid ""
+"The calculation is based on the number of shares so far, which may not be "
+"accurate for slow workers."
+msgstr ""
+"El cálculo se basa en el número de shares hasta ahora, que puede no ser "
+"exacta para los trabajadores lentas."
+
+#: templates/profile_worker_pager.html:5 templates/transactions-pager.html:5
+msgid "previous"
+msgstr "anterior"
+
+#: templates/profile_worker_pager.html:9 templates/transactions-pager.html:9
+msgid "Page"
+msgstr "Página"
+
+#: templates/profile_worker_pager.html:9 templates/transactions-pager.html:9
+msgid "of"
+msgstr "de"
+
+#: templates/profile_worker_pager.html:13 templates/transactions-pager.html:13
+msgid "next"
+msgstr "próximo"
+
+#: templates/register.html:3
+msgid "Register an account"
+msgstr "Registrar una cuenta"
+
+#: templates/register.html:5
+msgid ""
+"Your account has been created. Please check your mail for activation link."
+msgstr ""
+"Tu cuenta ha sido creada. Por favor, consultar su E-mail para el link de "
+"activación."
+
+#: templates/register.html:10
+msgid "You already have an account."
+msgstr "Usted ya tiene una cuenta."
+
+#: templates/register.html:10
+#, python-format
+msgid "Please continue to your <a href='%(url)s'>profile page</a>"
+msgstr "Por favor continue para su <a href='%(url)s'>página personal</a>"
+
+#: templates/register.html:16
+msgid "Register now!"
+msgstr "¡Regístrate ahora!"
+
+#: templates/settings.html:4 templates/token-manage.html:4
+#: templates/transactions.html:4 templates/whitelist.html:3
+#: templates/worker.html:3
+msgid "Back to profile"
+msgstr "Volver al perfil "
+
+#: templates/settings.html:13 templates/settings.html.py:15
+msgid "Change the password"
+msgstr "Cambiar la contraseña"
+
+#: templates/settings.html:14
+msgid "Follow the link for password recovery form:"
+msgstr "Siga el link para el formulario de recuperación de la contraseña:"
+
+#: templates/settings.html:19
+msgid ""
+"If you don't want to use this service anymore, you can cancel your account "
+"on the following link:"
+msgstr ""
+"Si usted no quieres mas utilizar este servicio, usted puede cancelar su "
+"cuenta en este link:"
+
+#: templates/settings.html:30
+msgid "Change email"
+msgstr "Cambiar el E-mail "
+
+#: templates/stats-graphs.html:2 templates/stats-graphs.html.py:10
+#: templates/template.html:66
+msgid "Graphs"
+msgstr "Gráficos"
+
+#: templates/stats-graphs.html:54
+msgid "Your daily reward"
+msgstr "Su recompensa diaria"
+
+#: templates/stats-graphs.html:91
+msgid "Daily reward"
+msgstr "Recompensa diaria"
+
+#: templates/stats-graphs.html:91
+msgid "day moving AVG"
+msgstr "Média móvil del día"
+
+#: templates/stats-graphs.html:150
+msgid "System daily reward"
+msgstr "Recompensa diaria do sistema"
+
+#: templates/stats-graphs.html:246
+msgid "Cumulative distribution of normalized number of shares per block"
+msgstr "Distribución acumulada del número normalizado de shares por bloque"
+
+#: templates/stats-graphs.html:275
+msgid "experimental CDF"
+msgstr "CDF experimental"
+
+#: templates/stats-graphs.html:276
+msgid "theoretical CDF"
+msgstr "CDF teórico"
+
+#: templates/stats.html:7
+msgid "System statistics"
+msgstr "Sistema de estatísticas"
+
+#: templates/stats.html:8
+msgid "Bitcoin blocks"
+msgstr "Bitcoin bloques"
+
+#: templates/stats.html:8
+msgid "Namecoin blocks"
+msgstr "Namecoin bloques"
+
+#: templates/stats.html:12
+msgid "Current round started at:"
+msgstr "Actual ronda comenzó en:"
+
+#: templates/stats.html:12
+msgid "UTC"
+msgstr "UTC"
+
+#: templates/stats.html:13
+msgid "Current round duration:"
+msgstr "Duración de la actual ronda:"
+
+#: templates/stats.html:15
+msgid "CDF"
+msgstr "CDF"
+
+#: templates/stats.html:18
+msgid "Current"
+msgstr "Current"
+
+#: templates/stats.html:18
+msgid "block"
+msgstr "Bloque"
+
+#: templates/stats.html:18
+msgid "difficulty"
+msgstr "Dificultad"
+
+#: templates/stats.html:19
+msgid "Pool luck"
+msgstr "Suerte del grupo"
+
+#: templates/stats.html:19
+msgid "day"
+msgstr "Día"
+
+#: templates/stats.html:19
+msgid "days"
+msgstr "Días"
+
+#: templates/stats.html:20
+msgid "Current server load (60 sec average)"
+msgstr "La carga actual del servidor (en media 60 segundos)"
+
+#: templates/stats.html:20
+msgid "getwork/s"
+msgstr "Conseguir trabajo/s"
+
+#: templates/stats.html:21
+msgid "Connected workers"
+msgstr "Trabajadores conectados"
+
+#: templates/stats.html:21
+msgid "Tor workers"
+msgstr "Trabajadores TOR"
+
+#: templates/stats.html:25
+msgid "Total score of current round:"
+msgstr "Puntiación total de la ronda actual:"
+
+#: templates/stats.html:26
+msgid "Shares contributed in current round:"
+msgstr "Shares aportadas en la ronda actual:"
+
+#: templates/stats.html:29
+msgid ""
+"Hashrate on <a href=\"/mining-proxy-howto\">Stratum</a> interface (30 min "
+"average)"
+msgstr ""
+
+#: templates/stats.html:29 templates/stats.html.py:30
+msgid "Ghash/s"
+msgstr "Ghash/s"
+
+#: templates/stats.html:30
+msgid "Approx. cluster performance (30 min average)"
+msgstr ""
+"Rendimiento aproximado de la performance del clúster (media minimo de 30 "
+"minutos)"
+
+#: templates/stats.html:35
+msgid "Namecoin block history"
+msgstr "História do bloque Namecoin"
+
+#: templates/stats.html:37
+msgid "Bitcoin block history"
+msgstr "História del bloque Bitcoin"
+
+#: templates/stats.html:40
+msgid "List of found blocks is delayed for two hours."
+msgstr "Lista de los bloques encontrados se ha retrasado por dos horas."
+
+#: templates/stats.html:42 templates/transactions.html:41
+msgid "All times are in UTC."
+msgstr "Todas las horas están en UTC."
+
+#: templates/stats.html:44
+msgid "Block found at"
+msgstr "Bloque encontrado en"
+
+#: templates/stats.html:44
+msgid "Duration"
+msgstr "Duración"
+
+#: templates/stats.html:44
+msgid "Total shares"
+msgstr "El total de shares"
+
+#: templates/stats.html:46
+msgid "Your BTC reward"
+msgstr "Su recompensa BTC"
+
+#: templates/stats.html:48
+msgid "Your NMC reward"
+msgstr "Su recompensa NMC"
+
+#: templates/stats.html:51
+msgid "Block #"
+msgstr "Bloque #"
+
+#: templates/stats.html:51
+#, fuzzy
+msgid "Block value"
+msgstr "Bloque #"
+
+#: templates/stats.html:51
+msgid "Validity"
+msgstr "Validez"
+
+#: templates/stats.html:67
+msgid "Processing..."
+msgstr "Procesando..."
+
+#: templates/stats.html:79
+msgid "invalid"
+msgstr "inválido"
+
+#: templates/stats.html:81
+msgid "confirmed"
+msgstr "confirmado"
+
+#: templates/stats.html:83
+msgid "confirmations left"
+msgstr "confirmaciones pendientes  "
+
+#: templates/stats.html:92 templates/stats.html.py:94
+msgid "JSON format"
+msgstr "Formato JSON"
+
+#: templates/template.html:62
+msgid "What is Pooled Mining?"
+msgstr "¿Qué es minería agrupada?"
+
+#: templates/template.html:65
+msgid "Statistics"
+msgstr "Estadística"
+
+#: templates/template.html:68
+msgid "Forum"
+msgstr "Foro"
+
+#: templates/template.html:69
+msgid "Live support"
+msgstr "Ayuda en directo"
+
+#: templates/template.html:100
+msgid "News"
+msgstr "Noticias"
+
+#: templates/token-manage.html:23
+msgid "Your current token:"
+msgstr "Su token actual:"
+
+#: templates/token-manage.html:30
+msgid "Generate new token"
+msgstr "Generar nuevo token"
+
+#: templates/token-manage.html:38
+msgid ""
+"Keep this token private. With this token and API described below, you can "
+"easily retrieve pool account details without need to store login and "
+"password directly in your application."
+msgstr ""
+"Mantenga este token privado. Con este token y la API se describe más "
+"adelante, usted puede recuperar fácilmente los detalles de la cuenta del "
+"grupo sin necessidad de guardar su  usuario y contraseña directamente en su "
+"aplicación."
+
+#: templates/token-manage.html:41
+msgid "API details"
+msgstr "Detalles del API"
+
+#: templates/token-manage.html:43
+#, fuzzy
+msgid ""
+"This URL contains JSON encoded data about recent pool rounds, including your "
+"round rewards:"
+msgstr "Esta URL contiene datos JSON codificados sobre su cuenta del grupo:"
+
+#: templates/token-manage.html:47
+msgid "This URL contains JSON encoded data about your pool account:"
+msgstr "Esta URL contiene datos JSON codificados sobre su cuenta del grupo:"
+
+#: templates/token-manage.html:51
+msgid "Login which belongs to given token."
+msgstr "Ingresar, que pertenece a determinado token."
+
+#: templates/token-manage.html:52
+msgid ""
+"Total user's hashrate, updated every hour and calculated from last 10 rounds "
+"(Mhash/s)."
+msgstr ""
+"Total del la tasa Hash de los usuarios, que se actualice cada hora y calcula "
+"a partir de los últimos 10 rondas ( Mhash/s)."
+
+#: templates/token-manage.html:53
+msgid "Reserved."
+msgstr "Reservado."
+
+#: templates/token-manage.html:54
+msgid ""
+"Estimated reward of current round. This is calculated as (your score)/(total "
+"score) for current round and may vary on every refresh."
+msgstr ""
+"Recompensa estimada de la actual ronda. Se calcula como (su puntuación)/"
+"(puntuación total) para la ronda actual y pueden variar en cada "
+"actualización."
+
+#: templates/token-manage.html:55
+msgid ""
+"Reward from blocks with less than 100 confirmations. This may go down when "
+"some block become invalid (refused by Bitcoin network)."
+msgstr ""
+"Recompensa partir de bloques con menos de 100 confirmaciones. Esto puede "
+"reducir cuando algunos bloques dejan de ser válidos (Rechazada por la red "
+"Bitcoin)"
+
+#: templates/token-manage.html:56
+msgid "This is your real reward waiting to send to your wallet."
+msgstr "Ésta es su verdadera recompensa a la espera de enviar a su cartera."
+
+#: templates/token-manage.html:57
+msgid "Bitcoins will be send to this Bitcoin wallet."
+msgstr "Los bitcoin será enviada a esta cartera de Bitcoin."
+
+#: templates/token-manage.html:58
+msgid ""
+"Bitcoins will be sent to you once confirmed_reward crosses over this value. "
+"Pool is processing payments once per hour."
+msgstr ""
+"Los bitcoins serán enviados a usted cuando el valor de la recompensa "
+"confirmada es mayor que este valor. El grupo processa los pagos una vez por "
+"hora."
+
+#: templates/token-manage.html:63
+msgid "Expected HTTP statuses:"
+msgstr "Estado esperado HTTP"
+
+#: templates/token-manage.html:65
+msgid "Request was successful, response contains JSON data described above."
+msgstr ""
+"Solicitud fue un éxito, la respuesta contiene datos JSON descritos "
+"anteriormente."
+
+#: templates/token-manage.html:66
+msgid "Request was not successful, token is probably invalid."
+msgstr "La solictud no tuvo éxito, El token probablemente no es válida."
+
+#: templates/token-manage.html:67
+msgid "Server is down for maintenance or there is some unexpected error."
+msgstr "El servidor está en mantenimiento o si hay algún error inesperado."
+
+#: templates/token-manage.html:70
+#, python-format
+msgid "All requests are cached for %(timeout)s seconds."
+msgstr "Todas las solicitudes se almacenan en caché por %(timeout)s segundos."
+
+#: templates/transactions.html:2
+msgid "Transactions"
+msgstr "Transacciones"
+
+#: templates/transactions.html:8
+msgid "Total:"
+msgstr "Total:"
+
+#: templates/transactions.html:13
+msgid "Date"
+msgstr "Fecha"
+
+#: templates/transactions.html:13
+msgid "Address"
+msgstr "Dirección"
+
+#: templates/transactions.html:13
+msgid "Amount"
+msgstr "Cantidad"
+
+#: templates/transactions.html:35
+msgid "No transactions yet"
+msgstr "No ha transacciones aún"
+
+#: templates/wallet_confirm.html:4 templates/wallet_confirm.html.py:9
+msgid "Wallet change confirmation"
+msgstr "Confirmación del cambio de cartera"
+
+#: templates/wallet_confirm.html:4 templates/wallet_confirm.html.py:20
+#: templates/wallet_confirm.html:30
+msgid "success"
+msgstr "Éxito"
+
+#: templates/wallet_confirm.html:5
+msgid "Your wallet has been succesfully changed."
+msgstr "Su cartera se ha cambiado correctamente."
+
+#: templates/wallet_confirm.html:9 templates/wallet_confirm.html.py:15
+msgid "failure"
+msgstr "Fracaso"
+
+#: templates/wallet_confirm.html:10
+msgid "You provided incorrect confirmation link for wallet change."
+msgstr ""
+"Ha introducido un link de confirmación que no es válida para cambiar la "
+"cartera."
+
+#: templates/wallet_confirm.html:11
+msgid "However, you can resend confirmation email from profile page."
+msgstr ""
+"Usted puede volver a enviar el link de confirmación de la página por email."
+
+#: templates/wallet_confirm.html:15 templates/wallet_confirm.html.py:30
+msgid "Wallet change resend"
+msgstr "Cambio de cartera se envió nuevamente"
+
+#: templates/wallet_confirm.html:16
+msgid "You don't have any wallet change in progress, there's nothing to send."
+msgstr ""
+"Usted no tiene ningún cambio de la cartera en curso, no hay nada que enviar."
+
+#: templates/wallet_confirm.html:20 templates/wallet_confirm.html.py:25
+msgid "Wallet change"
+msgstr "Cambio de la cartera"
+
+#: templates/wallet_confirm.html:25
+msgid "request cancelled"
+msgstr "solicitud cancelada"
+
+#: templates/wallet_confirm.html:26
+msgid "Request for changing wallet address has been cancelled."
+msgstr "Solicitud de cambio de dirección de la cartera ha sido cancelado."
+
+#: templates/wallet_confirm.html:34
+msgid "Please continue to"
+msgstr "Por favor, continúe para"
+
+#: templates/wallet_confirm.html:34
+msgid "your profile page"
+msgstr "su pagina de perfil"
+
+#: templates/whitelist.html:5
+msgid "Edit IP whitelist entry"
+msgstr "Editar la entrada en la lista de IP de confianza"
+
+#: templates/whitelist.html:7
+msgid "Whitelist has been updated."
+msgstr "Lista de confianza se ha actualizado"
+
+#: templates/whitelist.html:11
+msgid "You reached maximum allowed IPs per account."
+msgstr "Ha llegado al máximo de IP permitido por cuenta."
+
+#: templates/worker.html:5
+msgid "Edit worker"
+msgstr "Editar los trabajadores"
+
+#: templates/worker.html:7
+msgid "Worker has been updated."
+msgstr "Trabajador ha sito actualizado."
+
+#: templates/worker.html:11
+msgid "Worker with this name already exists."
+msgstr "Trabajador con este nombre ya exite."
+
+#: templates/worker.html:17
+msgid "Applying changes on connected worker may take up to 30 minutes."
+msgstr ""
+"Aplicación de los cambios en los trabajadores conectados pueden tardar hasta "
+"30 minutos."
+
+#~ msgid "phoenix GUI miner"
+#~ msgstr "phoenix GUI miner"
+
+#~ msgid "Diablo's GPU miner"
+#~ msgstr "Diablo's GPU miner"
+
+#~ msgid "puddinpop's CPU/GPU miners"
+#~ msgstr "puddinpop's CPU/GPU miners"

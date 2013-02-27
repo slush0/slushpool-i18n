@@ -1,0 +1,1613 @@
+# Esperanto translation of mining.bitcoin.cz.
+# Copyright (C) 2012 bitcoin.cz
+# This file is distributed under the same license as the mining.bitcoin.cz package.
+# Colin Dean <cad@cad.cx>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mining.bitcoin.cz 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 17:15+0100\n"
+"PO-Revision-Date: 2012-08-07 22:48-0500\n"
+"Last-Translator: Colin Dean <git@cad.cx>\n"
+"Language-Team: Colin Dean <cad@cad.cx>\n"
+"Language: Esperanto\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Esperanto\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: forms.py:24
+msgid ""
+"Only alphabetical characters, numbers and underscore are allowed in username!"
+msgstr "Sole literciferaj signoj kaj substreko estas permesita en uzantnomo!"
+
+#: forms.py:31
+#, python-format
+msgid "The username \"%(username)s\" is already taken."
+msgstr "La uzantnomo \"%(username)s\" estas prenita."
+
+#: forms.py:40 forms.py:134 templates/hall-of-fame.html:7
+msgid "Username"
+msgstr "Uzantnomo"
+
+#: forms.py:41
+msgid "Bitcoin address"
+msgstr "Bitmona adreso"
+
+#: forms.py:42
+msgid "Your <strong>Bitcoin</strong> address for receiving rewards"
+msgstr "Via <strong>bitmona</strong> adreso por ricevado de rekompencoj"
+
+#: forms.py:43 forms.py:85
+msgid "Send threshold"
+msgstr "Senda sojlo"
+
+#: forms.py:43
+msgid "Coins will be sent once the reward crosses over the threshold"
+msgstr "Monoj sendiĝos kiam la rekompenco transas la sojlo"
+
+#: forms.py:46
+msgid "Estimated reward"
+msgstr "Taksita rekompenco"
+
+#: forms.py:46
+msgid "Estimated reward for current round"
+msgstr "Taksita rekompenco por nuntempa raŭndo"
+
+#: forms.py:48 forms.py:89
+msgid "Unconfirmed reward"
+msgstr "Nekonfirmita rekompenco"
+
+#: forms.py:48 forms.py:89
+msgid "Pending reward from unconfirmed blocks"
+msgstr "Okazonta rekompenco de nekonfirmitaj blokoj"
+
+#: forms.py:49 forms.py:90
+msgid "Confirmed reward"
+msgstr "Konfirmita rekompenco"
+
+#: forms.py:50 forms.py:91
+msgid "Your confirmed balance from valid blocks"
+msgstr "Via konfirmita bilanco de valida blokoj"
+
+#: forms.py:51
+msgid "Total reward"
+msgstr "Totala rekompenco"
+
+#: forms.py:52
+msgid "Unconfirmed + Confirmed rewards"
+msgstr "Nekonfirmitaj kaj konfirmitaj rekompencoj"
+
+#: forms.py:54
+msgid "Username in stats"
+msgstr "Uzantonomo en statistiko"
+
+#: forms.py:54
+msgid "Show my username in public server stats"
+msgstr "Montru mian uzantonomon en publika servila statistiko"
+
+#: forms.py:56
+msgid "Notify me on payout"
+msgstr "Avizu min kiam pagita."
+
+#: forms.py:56
+msgid "Send email when the system sends me a payment"
+msgstr "Sendu retpoŝton kiam la sistemo sendas pago al mi "
+
+#: forms.py:69
+msgid ""
+"This is not a valid Bitcoin address. Please install Bitcoin client or "
+"register some web wallet to get one."
+msgstr ""
+"Ĉi tiu bitmona adreso estas malvalida. Bonvolu instali bitmonan klienton aŭ "
+"registri ian TTT-an monujon por akiri adreson."
+
+#: forms.py:75 forms.py:104
+#, fuzzy
+msgid "Sending threshold must be >= 0.05!"
+msgstr "Sendanta sojlo devas esti >= 0.01!"
+
+#: forms.py:78
+#, fuzzy
+msgid "Sending threshold must be <= 10! I'm not a bank :-)."
+msgstr "Sendanta sojlo devas esti <= 100! Ĉi tiu ne estas banko :-)"
+
+#: forms.py:83
+msgid "Namecoin wallet"
+msgstr "Nomamona monujo"
+
+#: forms.py:84
+msgid "Your <strong>Namecoin</strong> address for receiving rewards"
+msgstr "Via <strong>nomamona</strong> adreso por ricevado de rekompencoj"
+
+#: forms.py:85
+msgid "Namecoins will be sent once the reward crosses over the threshold"
+msgstr "Nomamono sendiĝos kiam la rekompenco transas la sojlo."
+
+#: forms.py:98
+msgid ""
+"This is not a valid Namecoin address. Please install Namecoin client to get "
+"one."
+msgstr ""
+"Ĉi tiu nomamono adreso estas malvalida. Bonvolu instali nomamonon klienton "
+"por akiri adreson."
+
+#: forms.py:107
+msgid "Sending threshold must be <= 20! I'm not a bank :-)."
+msgstr "Sendanta sojlo devas esti <= 20! Ĉi tiu ne estas banko :-)"
+
+#: forms.py:113
+msgid "IP address/Domain"
+msgstr "IP-adreso/domajno"
+
+#: forms.py:113
+msgid "Enter IP address from which miner connections will be accepted."
+msgstr "Enigu IP-adreson por akceptado de minilaj konektoj."
+
+#: forms.py:118
+msgid "Login suffix"
+msgstr "Ensaluta sufikso"
+
+#: forms.py:118
+msgid "Worker login will be &lt;your username&gt;.&lt;login suffix&gt;"
+msgstr ""
+"Laboranta ensaluto estos &lt;via uzantnomo&gt;.&lt;ensaluta sufikso&gt;"
+
+#: forms.py:119 templates/profile.html:119
+msgid "Password"
+msgstr "Pasvorto"
+
+#: forms.py:120
+msgid "LP support"
+msgstr "Longopinisonda subteno"
+
+#: forms.py:120
+msgid ""
+"Enable 'long polling' extension for this worker. Turning OFF usually "
+"requires a miner restart."
+msgstr ""
+"Ŝalti 'longa enketado' etendaĵon por ĉi tiu laboranto. Malŝalti postulas "
+"restarto de minilo."
+
+#: forms.py:130
+msgid "Dots are not allowed in worker name"
+msgstr "Punktoj ne estas permesita en nomo de laboranto."
+
+#: forms.py:134
+msgid "Enter a valid username."
+msgstr "Enigi validan uzantnomon."
+
+#: forms.py:135
+msgid "Email"
+msgstr "Retpoŝto"
+
+#: forms.py:136
+msgid "Required password"
+msgstr "Postulita pasvorto"
+
+#: forms.py:137
+msgid "Password again"
+msgstr "Pasvorto ree"
+
+#: forms.py:141
+msgid "Passwords are different!"
+msgstr "Pasvortoj estas malsamaj!"
+
+#: models.py:42
+#, python-format
+msgid "Maximum %(count)d whitelisted IPs per account allowed."
+msgstr ""
+"Maksimuma %(count)d listigitaj IP-adresoj je blanka listo permesita en konto."
+
+#: models.py:87
+#, python-format
+msgid "<User%(id)d>"
+msgstr "<Uzanto%(id)d>"
+
+#: models.py:108
+msgid "Token not generated yet"
+msgstr "Ĵetono ne generita ĝis nun"
+
+#: models.py:110 views.py:500 views.py:1229
+msgid "Invalid token"
+msgstr "Malvalida ĵetono"
+
+#: models.py:127
+msgid "[mining.bitcoin.cz] Wallet change confirmation"
+msgstr "[mining.bitcoin.cz] Konfirmo de monuja ŝanĝiĝita "
+
+#: models.py:129 templates/stats.html:7 templates/stats.html.py:18
+msgid "Namecoin"
+msgstr "Nomamono"
+
+#: models.py:129 templates/stats.html:18
+msgid "Bitcoin"
+msgstr "Bitmono"
+
+#: registration.py:45
+msgid "[mining.bitcoin.cz] New account confirmation"
+msgstr "[mining.bitcoin.cz] Konfirmo de nova konto"
+
+#: views.py:705
+msgid "[mining.bitcoin.cz] Delete account confirmation"
+msgstr "[mining.bitcoin.cz] Konfirmo de forigo de konto"
+
+#: views.py:926
+msgid "Namecoin settings has been updated."
+msgstr "Nomamonaj agordoj ĝisdatiĝis."
+
+#: views.py:974
+msgid "Account has been updated."
+msgstr "Konto ĝisdatiĝis."
+
+#: views.py:1011 views.py:1246
+msgid "Account banned. Contact pool administrator at info@bitcoin.cz"
+msgstr "Konto forbariĝis. Kontaktu grupadministranto ĉe info@bitcoin.cz"
+
+#: templates/account_delete.html:2 templates/profile.html:2
+#: templates/profile.html.py:10 templates/settings.html:2
+#: templates/template.html:64 templates/token-manage.html:2
+#: templates/token-manage.html.py:6 templates/transactions.html:2
+#: templates/whitelist.html:5 templates/worker.html:5
+msgid "My account"
+msgstr "Mia konto"
+
+#: templates/account_delete.html:2 templates/account_delete.html.py:5
+#: templates/settings.html:17 templates/settings.html.py:25
+msgid "Delete my account"
+msgstr "Forigi mian konton"
+
+#: templates/account_delete.html:9 templates/wallet_confirm.html:31
+msgid ""
+"Confirmation email has been send. Please check your mailbox and follow the "
+"link."
+msgstr ""
+"Konfirma retpoŝto estis sendita. Bonvolu kontroli vian enirkeston kaj sekvu "
+"la ligilo."
+
+#: templates/account_delete.html:14
+msgid ""
+"Confirmation link which you provided is not valid. Please be sure that your "
+"confirmation link has been generated in less than one hour. If your current "
+"link is older than one hour, please go to your profile settings and retry "
+"your request."
+msgstr ""
+"La konfirma ligilo kiu vi provizis estas malvalida. Bonvolu certigi ke via "
+"konfirma ligilo estis kreita malpli ol antaŭ unu horo. Se via nuntempa "
+"ligilo estas pli aĝa ol unu horo, bonvolu iri al via profilaj agordoj kaj "
+"reprovu vian peton."
+
+#: templates/confirm.html:4
+msgid "Your account is already activated."
+msgstr "Via konto estas aktivigita jam."
+
+#: templates/confirm.html:4 templates/confirm.html.py:21
+#, python-format
+msgid "Please <a href='%(url)s'>login</a> to continue."
+msgstr "Bonvolu <a href='%(url)s'>ensaluti</a> daŭrigi."
+
+#: templates/confirm.html:8
+msgid "Your account has been activated!"
+msgstr "Via konto aktiviĝis!"
+
+#: templates/confirm.html:10
+msgid ""
+"Your pool account is now ready for mining. Please use following credentials "
+"in your mining software:"
+msgstr ""
+"Via grupa konto estas preta jam por minado. Bonvolu uzi sekvantajn "
+"ensalutilojn en via minada programo."
+
+#: templates/confirm.html:14
+msgid "Worker login:"
+msgstr "Laboranta ensalultnomo:"
+
+#: templates/confirm.html:15
+msgid "Worker password:"
+msgstr "Laboranta pasvorto:"
+
+#: templates/confirm.html:18
+msgid "This is not your website login, use it only for your mining software."
+msgstr ""
+"Tiu ne estas via TTT-ejo ensalutnomo. Uzu ĝin sole por via minada programo."
+
+#: templates/confirm.html:19
+msgid "You can change it or register more workers on your profile page."
+msgstr "Vi povas ŝanĝi ĝi aŭ registri pluajn laborantojn en via profila paĝo."
+
+#: templates/email_account_delete.html:1 templates/email_payout.html:1
+#: templates/email_payout_nmc.html:1 templates/email_registration.html:1
+#: templates/email_wallet_change.html:1
+msgid "Hello"
+msgstr "Saluton"
+
+#: templates/email_account_delete.html:3
+#, python-format
+msgid ""
+"I'm sending you this email because somebody requested deletion of your "
+"account on <a href='%(url)s'>bitcoin.cz</a> mining pool!"
+msgstr ""
+"Mi sendas via tiu ĉi retpoŝto ĉar iu petis forigo de via konto ĉe <a "
+"href='%(url)s'>bitcoin.cz</a> minadgrupo!"
+
+#: templates/email_account_delete.html:6
+#, python-format
+msgid ""
+"If you really want to delete your account <strong>%(username)s</strong>, "
+"please follow <a href='%(url)s%(token)s/%(timestamp)s'>this confirmation "
+"link</a>."
+msgstr ""
+"Se vi deziregas forigi vian konton <strong>%(username)s</strong>, bonvolu "
+"sekvi <a href='%(url)s%(token)s/%(timestamp)s'>tiu konfirma ligilo</a>."
+
+#: templates/email_account_delete.html:7
+msgid ""
+"The link is valid for one hour. If you missed this email and link isn't "
+"valid anymore, please go to the website and retry the request."
+msgstr ""
+"La ligilo estas valida por unu horo. Se vi preterlasis ĉi tiun retpoŝton kaj "
+"la ligilo ne estas valida plu, bonvolu iri al TTT-ejo kaj reprovu la peton."
+
+#: templates/email_account_delete.html:11
+msgid ""
+"Remaining balance of this account will be considered as a pool donation. If "
+"you forgot to request the payout, you have the last chance right now."
+msgstr ""
+"La restanta bilanco de ĉi tiu konto estos konsiderita esti donacio al la "
+"grupo. Se vi forgesis peti la transpagito, vi havas la lastan okazon nun."
+
+#: templates/email_account_delete.html:15
+msgid ""
+"If you didn't initiate this request, please don't click the confirmation "
+"link above,"
+msgstr ""
+"Se vi ne iniciatis ĉi tiun peton, bonvolu ne klaki la konfirma ligilo supre "
+"menciita."
+
+#: templates/email_account_delete.html:16
+#: templates/email_wallet_change.html:12
+msgid ""
+"change your password immediately and report this incident to info@bitcoin.cz."
+msgstr ""
+"Ŝanĝu vian pasvorton *tuj* kaj raportu ĉi tiun okazon al info@bitcoin.cz."
+
+#: templates/email_account_delete.html:21 templates/email_payout.html:11
+#: templates/email_payout_nmc.html:11 templates/email_registration.html:9
+#: templates/email_wallet_change.html:17
+msgid "Best regards,"
+msgstr "Sincere,"
+
+#: templates/email_account_delete.html:23 templates/email_payout.html:13
+#: templates/email_payout_nmc.html:13 templates/email_registration.html:11
+#: templates/email_wallet_change.html:19
+msgid "The Pool Operator"
+msgstr "La grupadministranto"
+
+#: templates/email_payout.html:3
+#, python-format
+msgid ""
+"Your reward for mining with the <strong><a href='%(url)s'>bitcoin.cz</a></"
+"strong> mining pool service has exceeded threshold of %(threshold)s BTC."
+msgstr ""
+"Via rekompenco por minado kun la <strong><a href='%(url)s'>bitcoin.cz</a></"
+"strong> minadgrupo superis sojlon de %(threshold)s BTC."
+
+#: templates/email_payout.html:5
+#, python-format
+msgid ""
+"Amount <strong>%(amount)s BTC</strong> has been transfered to your address "
+"<strong>%(wallet)s</strong> at %(date)s UTC."
+msgstr ""
+"Sumo de <strong>%(amount)s BTC</strong> estis transpagita al via adreso "
+"<strong>%(wallet)s</strong> ĉe %(date)s UTC."
+
+#: templates/email_payout.html:7
+#, fuzzy, python-format
+msgid ""
+"Payment processing through Bitcoin network may take between 30 minutes to 3 "
+"hours. You can watch current payment status on <a href='http://www."
+"blockchain.info/address/%(wallet)s'>http://www.blockchain.info/address/"
+"%(wallet)s</a>. If you see payment on Blockchain.infchain.info in your "
+"Bitcoin client, please verify that your client is up to the latest block or "
+"ask on Bitcoin forum for any other help."
+msgstr ""
+"Pagtraktado per bitmona reto eblas daŭri inter 30-a minutoj de tri horoj. "
+"Via povas montri nunan pagstatuson ĉe <a href='http://www.blockexplorer.com/"
+"address/%(wallet)s'>http://www.blockexplorer.com/address/%(wallet)s</a>. Se "
+"vi observi pagon en Blokesploranto kaj ne en via bitmona kliento, bonvolu "
+"kontroli ke via kliento estas aktuala al plej nova bloko aŭ demandi en "
+"bitmono forumo por ajna alia helpo."
+
+#: templates/email_payout_nmc.html:3
+#, python-format
+msgid ""
+"Your Namecoin reward for mining with the <strong><a href='%(url)s'>bitcoin."
+"cz</a></strong> mining pool service has exceeded threshold of %(threshold)s "
+"NMC."
+msgstr ""
+"Via nomamona rekompenco por minado kun la <strong><a href='%(url)s'>bitcoin."
+"cz</a></strong> minadgrupo servo superis sojlon de %(threshold)s NMC."
+
+#: templates/email_payout_nmc.html:5
+#, python-format
+msgid ""
+"Amount <strong>%(amount)s NMC</strong> has been transfered to your wallet "
+"<strong>%(wallet)s</strong> at %(date)s UTC."
+msgstr ""
+"Sumo de <strong>%(amount)s NMC</strong> estis transpagita al via adreso "
+"<strong>%(wallet)s</strong> ĉe %(date)s UTC."
+
+#: templates/email_payout_nmc.html:7
+#, python-format
+msgid ""
+"Payment processing through Namecoin network may take between 30 minutes to 3 "
+"hours. You can watch current payment status on <a href='http://explorer.dot-"
+"bit.org/a/%(wallet)s'>http://explorer.dot-bit.org/a/%(wallet)s</a>. If you "
+"see payment on Block Explorer and not in your Namecoin client, please verify "
+"that your client is up to the latest block or ask on Namecoin forum for any "
+"other help."
+msgstr ""
+"Pagtraktado per nomamona reto eblas daŭri inter 30-a minutoj de tri horoj. "
+"Via povas montri nunan pagstatuson ĉe <a href='http://explorer.dot-bit.org/a/"
+"%(wallet)s'>http://explorer.dot-bit.org/a/%(wallet)s</a>. Se vi observi "
+"pagon en la blokesploranto kaj ne en via nomamona kliento, bonvolu kontroli "
+"ke via kliento estas aktuala al plej nova bloko aŭ demandi en nomamono "
+"forumo por ajna alia helpo."
+
+#: templates/email_registration.html:3
+msgid "thank you for signing up for an bitcoin.cz account!"
+msgstr "Dankon por registrado por konto ĉe bitcoin.cz!"
+
+#: templates/email_registration.html:5
+#, python-format
+msgid ""
+"To activate your account, click to this <a href='%(url)s"
+"%(activation_key)s'>activation link</a>"
+msgstr ""
+"Aktivigi vian konton, klaku tiun <a href='%(url)s"
+"%(activation_key)s'>aktivigeca ligilo</a>."
+
+#: templates/email_wallet_change.html:3
+#, python-format
+msgid ""
+"this email is sent due to a request to change your <strong>%(type)s</strong> "
+"wallet to the new address: <strong>%(wallet)s</strong>. "
+msgstr ""
+"Tiu retpoŝto sendiĝis ĉar peto ŝanĝi vian <strong>%(type)s</strong> monujon "
+"al la nova adreso: <strong>%(wallet)s</strong>. "
+
+#: templates/email_wallet_change.html:7
+#, python-format
+msgid ""
+"To authorize this request, please <a href='%(url)s%(wallet_token)s'>follow "
+"this link</a>."
+msgstr ""
+"Aprobi tiun peton, bonvolu <a href='%(url)s%(wallet_token)s'>sekvi tiun "
+"ligilon</a>."
+
+#: templates/email_wallet_change.html:11
+#, python-format
+msgid ""
+"If you didn't initiate this change please <a href='%(url)s%(wallet)s'>cancel "
+"this request</a>, "
+msgstr ""
+"Se via ne iniciatas tiun ŝanĝon, bonvolu <a href='%(url)s%(wallet)s'>nuligi "
+"tiun peton</a>, "
+
+#: templates/hall-of-fame.html:2 templates/stats.html:2
+msgid "Stats"
+msgstr "Statistiko"
+
+#: templates/hall-of-fame.html:4 templates/template.html:67
+msgid "Hall of Fame"
+msgstr "Halo de Fameco"
+
+#: templates/hall-of-fame.html:4
+msgid "(TOP50 miners)"
+msgstr "Supra kvindek ministoj"
+
+#: templates/hall-of-fame.html:7 templates/profile.html:120
+#: templates/profile.html.py:170
+msgid "Found blocks"
+msgstr "Trovitaj blokoj"
+
+#: templates/hall-of-fame.html:7
+msgid "Hash rate"
+msgstr "Haketa rapido"
+
+#: templates/hall-of-fame.html:19 templates/profile.html:114
+#: templates/profile.html.py:126
+msgid "Mhash/s"
+msgstr "milionaj haketoj en sekundo"
+
+#: templates/hall-of-fame.html:20 templates/profile.html:148
+msgid "yes"
+msgstr "jes"
+
+#: templates/hall-of-fame.html:20 templates/profile.html:149
+msgid "no"
+msgstr "ne"
+
+#: templates/homepage.html:3
+msgid "Sign up HERE"
+msgstr "Enigi"
+
+#: templates/homepage.html:7
+msgid "What is Bitcoin Pooled Mining?"
+msgstr "Kio estas Bitmona Grupminado?"
+
+#: templates/homepage.html:9
+msgid ""
+"Bitcoin pooled mining is a way for multiple users to work together to mine "
+"<a href='http://www.weusecoins.com'>bitcoins</a>, and to share the benefits "
+"fairly."
+msgstr ""
+"Bitmona grupminado estas metodo por multaj uzantoj kunlabori mini <a "
+"href='http://www.weusecoins.com'>bitmono</a> (angle: Bitcoins), kaj dividi "
+"la gajnojn juste."
+
+#: templates/homepage.html:12
+msgid "Why do I need bitcoin pool?"
+msgstr "Kial mi bezonas bitmonan grupon?"
+
+#: templates/homepage.html:14
+msgid ""
+"Bitcoins are ordinarily only ever created in chunks of 25 at a time, with "
+"the whole 25 paid to a single person. Furthermore, the race to get the 25 "
+"BTC prize in a given block is highly competitive."
+msgstr ""
+"Bitmonoj estas kreita normale en blokoj de 50-aj moneroj per unu fojo, kun "
+"la tuta 50-a moneroj pagis la unu persono. Plu, la vetkuro akiri la 50-a BTC "
+"premio en ĉiu bloko estas konkura alte!"
+
+#: templates/homepage.html:17
+msgid ""
+"If you set out mining on your own, it may be a long time before you can make "
+"a return. Pooled mining allows you to receive smaller, more frequent, "
+"steadier payouts instead. If you have a slower computer, or a CPU miner, "
+"then pooled mining may be the only way that you will ever mine any bitcoins "
+"at all."
+msgstr ""
+"Se vi minas sole, estas ebla esti longega tempo antaŭ vi ricevas pagon. "
+"Grupminado permesas vin ricevi pli malgrandajn, pli oftajn, pli "
+"neŝanĝiĝemajn pagojn anstataŭe. Se vi havas pli malrapidan komputilon, aŭ "
+"CPU minilo, tiam grupminado povus esti sola metodo ke vi minos ajnajn "
+"bitmonojn ĉiam entute."
+
+#: templates/homepage.html:28
+msgid "How does bitcoin pool work?"
+msgstr "Kiamaniere bitmona grupo verkas?"
+
+#: templates/homepage.html:30
+msgid ""
+"Our server gives users blocks of very low difficulty to solve. Each solution "
+"found is registered as one 'share'. Occasionally, a solution will happen to "
+"also meet the full-strength difficulty requirements of the Bitcoin network, "
+"resulting in a successful 25 BTC minting."
+msgstr ""
+"Nia servilo donas al uzantoj blokojn kiun estas tre facila solvi. Ĉiu solvo "
+"trovita estas registrita kiel unu 'parto'. Foje, solvo kontentigos ankaŭ la "
+"plenajn postulojn de la Bitmona reto, kiu produktas sukcesa 25 BTC minado."
+
+#: templates/homepage.html:33
+msgid ""
+"This 25 BTC is divided among all of the users that contributed to that "
+"round, weighted by the number of shares that they earned. Therefore, the "
+"reward earned by a given user is given by the following formula:"
+msgstr ""
+"Tiu 25 BTC dividiĝas inter tuta la uzantoj kiu kontribuis al tiu raŭndo, "
+"pezita de la numero de partoj kiuj ili perlaboris. Tial, la rekompenco "
+"perlaborita de certa uzanto determiniĝis de la tiu formulo:"
+
+#: templates/homepage.html:35
+#, fuzzy, python-format
+msgid ""
+"(25 BTC + block fees - 2%% fee) * (shares found by user's workers) / (total "
+"shares in current round)"
+msgstr ""
+"(50 BTC - 1 BTC honorario) * (partoj trovitaj de laboranto de uzanto) / "
+"(totalaj partoj en nuntempa raŭndo)"
+
+#: templates/homepage.html:37
+msgid ""
+"Shares do not carry over from one round to the next. When the pool mine a "
+"block, only users who worked on that block are rewarded, and only for work "
+"they did on that block. This is an unavoidable consequence of the way that "
+"Bitcoin mining in general works."
+msgstr ""
+"Partoj ne persistis inter raŭndoj. Kiam la grupo minas blokoj, sole uzantoj "
+"kiuj laboris por tiu bloko perlaboras rekompencon, kaj sole por laboro kiu "
+"ili plenumis por tiu bloko. Tiu estas malevitebla konsekvenco de la maniero, "
+"ke bitmona minado funkcias ĝenerale."
+
+#: templates/homepage.html:40
+#, python-format
+msgid "The %(fee)s fee is used to keep this service alive."
+msgstr "La %(fee)s-a elcento honorario estas uzita konservi tiun servon."
+
+#: templates/homepage.html:43
+msgid "Key features"
+msgstr "Gravaj trajtoj"
+
+#: templates/homepage.html:45
+msgid "Service lifetime & operator trust"
+msgstr "Serva vivodaŭro kaj konfido en funkciigisto"
+
+#: templates/homepage.html:45
+msgid ""
+"Users have to trust pool operators, because pools aren't cheat-proof from "
+"the side of the operator."
+msgstr ""
+"Uzantoj devas fidi grupfunkciigistoj, ĉar grupoj ne estas trompantrezista de "
+"la flanko de la operatoro."
+
+#: templates/homepage.html:46
+msgid ""
+"was the first Bitcoin mining pool, has been operating consistently since "
+"December 2010 and has a long history of stable and accurate payouts."
+msgstr ""
+"estis la unua bitmona mingrupo, funkcianta konsekvence depost decembro 2010 "
+"kaj havas longa historio de stabilaj kaj precizaj transpagoj."
+
+#: templates/homepage.html:47
+msgid "Namecoin Merged Mining"
+msgstr "Kunfandita minado por nomamono"
+
+#: templates/homepage.html:47
+msgid ""
+"The pool has been mining Bitcoins and Namecoins since October 2011. Thanks "
+"to this, users have higher mining income than mining on another Bitcoin-only "
+"pool."
+msgstr ""
+"La grupo havas minita bitmonojn kaj nomamonojn depost oktobro 2011. Danke "
+"tiun, uzantoj havas pli alta enspezo de minado ol minado kun alia bitmona-"
+"sole grupo."
+
+#: templates/homepage.html:48
+msgid ""
+"Pool uses a fair distribution of rewards between members, making the pool "
+"hop-resistant. This has been mathematicaly proven."
+msgstr ""
+"Grupo uzas justan distribuon de rekompencoj inter grupanoj, tiamaniere la "
+"grupo fariĝas hoprezista. Tiu estis demonstrita matematike."
+
+#: templates/homepage.html:49
+#, python-format
+msgid ""
+"This miner extension improves overall mining efficiency of connected miners "
+"by lowering stale share ratio below %(ratio)s."
+msgstr ""
+"Tiu minila etendaĵo plibonigas minadan rendimenon de konektita miniloj de "
+"mallevado de malfreŝa parta proporcio sub unu %(ratio)s."
+
+#: templates/homepage.html:50
+msgid ""
+"Another miner extension, which improves network efficiency, especially for "
+"fast mining rigs."
+msgstr ""
+"Alia minila etendaĵo, kiu plibonigas reta rendimento, por rapidaj minilaj "
+"komputiloj aparte."
+
+#: templates/homepage.html:53
+#, python-format
+msgid ""
+"You need to use miner software that supports those features. I recommend you "
+"%(miner1)s or %(miner2)s"
+msgstr ""
+"Vi bezonas uzi minprogramo kiu subtenas tiujn trajtojn. Mi rekomendas al vi "
+"%(miner1)s aŭ %(miner2)s."
+
+#: templates/homepage.html:56
+msgid "How do I get started?"
+msgstr "Kiamaniere mi komencas?"
+
+#: templates/homepage.html:57
+msgid "1. Install Bitcoin miner on your computer"
+msgstr "1. Instalu bitmonan minilon en via komputilo."
+
+#: templates/homepage.html:58
+msgid "All major CPU/GPU miners support pooled mining:"
+msgstr "Ĉiu ega CPU/GPU-a minilo subtenas grupminado:"
+
+#: templates/homepage.html:60
+msgid "Kiv's GUI miner (Windows, recommended for beginners)"
+msgstr "GUI Minilo de Kiv (Vindozo, rekomendita por komencanto)"
+
+#: templates/homepage.html:60 templates/homepage.html.py:61
+#: templates/homepage.html:62
+msgid "instructions"
+msgstr "instruoj"
+
+#: templates/homepage.html:61
+#, fuzzy
+msgid "ckolivas's CGMINER (GPU/FPGA, recommended for experts)"
+msgstr "CGMINER de ckolivas"
+
+#: templates/homepage.html:62
+msgid "m0mchil's GPU miner"
+msgstr "GPU-a minilo de m0mchil"
+
+#: templates/homepage.html:65
+msgid "2. Sign up with a bitcoin.cz account"
+msgstr "2. Kreu bitcoin.cz-a konton."
+
+#: templates/homepage.html:67 templates/login.html:68
+msgid "Sign up"
+msgstr "Enskribiĝi"
+
+#: templates/homepage.html:68
+msgid "Verify email (may be used for troubleshooting)"
+msgstr "Kontroli retpoŝtadreson (eblas uzita por problemsolvado)"
+
+#: templates/homepage.html:69
+#, python-format
+msgid "<a href='%(url)s'>Login</a> to application"
+msgstr "<a href='%(url)s'>Ensaluti</a> aplikaĵon"
+
+#: templates/homepage.html:70
+msgid "Enter your wallet address - can be also online wallet registered on"
+msgstr "Tajpu vian monujadreson - eblas retmonujo registria en"
+
+#: templates/homepage.html:70 templates/homepage.html.py:80
+#: templates/homepage.html:82
+msgid "or"
+msgstr "aŭ"
+
+#: templates/homepage.html:71
+#, python-format
+msgid ""
+"<a href='%(url)s'>Register</a> your workers. You can use one worker account "
+"for all your miners, but I recommend to use separate account for every miner "
+"for easier troubleshooting."
+msgstr ""
+"<a href='%(url)s'>Registriĝi viajn laborantojn</a>. Vi povas uzi unu "
+"laborantan konton porĉia de viaj miniloj, sed mi rekomendas uzi apartan "
+"konton por ĉiuminilo por pli facila problemsolvado."
+
+#: templates/homepage.html:74
+msgid "3. Run miner"
+msgstr "3. Startu minilon"
+
+#: templates/homepage.html:76
+#, fuzzy
+msgid ""
+"Run your own GPU/FPGA/ASIC miner with the worker credentials you gave "
+"earlier, and connect it to following URL:"
+msgstr ""
+"Funkciu via propra CPU/GPU-a minilo kun la ensalutiloj por laboranto kiu vi "
+"liveris pli frue, kaj konektu ĝin al sekvanta reteja adreso:"
+
+#: templates/homepage.html:79
+msgid ""
+"Default URL for Stratum and Getwork miners. If you're unsure, use this URL."
+msgstr ""
+
+#: templates/homepage.html:81
+msgid "IPv6, only for Stratum miners"
+msgstr ""
+
+#: templates/homepage.html:83
+msgid "anonymous mining over Tor network"
+msgstr "sennoma minado trans Tor-reto"
+
+#: templates/homepage.html:85
+msgid ""
+"Only the newest version of poclbm miner have direct support for Tor mining "
+"at this moment."
+msgstr ""
+"Sole la plej nova versio de poclbm-a minilo havas rektan subtenon por Tor-a "
+"minado ĉi-momente."
+
+#: templates/homepage.html:88
+msgid "Is it safe?"
+msgstr "Estas sendanĝera?"
+
+#: templates/homepage.html:90
+msgid ""
+"In theory, as the Bitcoin pool operator, I could keep the 25 BTC from a "
+"block found by the pool for myself. I'm not going to do this, but I "
+"completely accept that people do not trust the pool operator. It is their "
+"freedom of choice, and Bitcoin is about freedom."
+msgstr ""
+"En teorio, kiel la Bitmona grupadministranto, mi retenus la 25 BTC el bloko "
+"trovita de la grupo por mi mem. Mi ne faros tion, sed mi agnoskas komplete "
+"ke homoj ne fidas je grupadministranton. Estas ilia libereco de elekto, kaj "
+"bitmono estas pri libereco."
+
+#: templates/homepage.html:93
+msgid ""
+"I created the Bitcoin pool service with the rising difficulty of mining in "
+"mind because I'd like to return my investment to mining hardware. There used "
+"to be days when I never found a block at all, even with the strongest GPU on "
+"the market, which made me uncomfortable. The periodic micropayments from the "
+"mining pool offer a steadier payout, which lowers the riskiness of my "
+"investment in the Bitcoin market."
+msgstr ""
+"Mi kreis la bitmonan grupan servon kun la leviĝanta malfacileco de minado en "
+"mensa, ĉar mi ŝatus redonon de mian investadon en minadaparataro. Estis "
+"tagoj kiam mi trovis neniam bloko, eĉ kun la plej forta GPU-o en la merkato. "
+"Tiu fakto faris min malkomforta. La periodaj pageroj de la minadgrupo oferas "
+"pli neŝanĝiĝeman frekvencon de pago, kiu malleviĝas riskecon de mia "
+"investado en la bitmona merkato."
+
+#: templates/homepage.html:96
+msgid "About"
+msgstr "Pri"
+
+#: templates/homepage.html:98
+msgid ""
+"You can contact me via email at info(at)bitcoin.cz, or via the bitcointalk."
+"org forum at the username slush. You can also follow pool's <a href='https://"
+"www.facebook.com/MiningBitcoinCz'>Facebook profile</a> for latest news and "
+"updates."
+msgstr ""
+"Vi povas kontakti min per retpoŝton ĉe info(ĉe)bitcoin.cz, aŭ per "
+"bitcointalk.org retforumo per la uzantonomo 'slush'. Vi povas sekvi la <a "
+"href='https://www.facebook.com/MiningBitcoinCz'>Facebook-an profilon</a> de "
+"la grupo por plej malfruaj novaĵoj kaj ĝisdatigoj."
+
+#: templates/login.html:45
+msgid "Login to bitcoin.cz"
+msgstr "Ensaluti al bitcoin.cz"
+
+#: templates/login.html:48
+msgid "Your username and password didn't match. Please try again."
+msgstr "Via uzantnomo kaj pasvorto estis miskongruita. Bonvolu provi ree."
+
+#: templates/login.html:67
+msgid "Forgot username/password?"
+msgstr "Ĉu vi forgesis vian pasvorton?"
+
+#: templates/login.html:68
+msgid "Don't have an account?"
+msgstr "Ne havas konton?"
+
+#: templates/msg_pending_wallet.html:1
+#, python-format
+msgid ""
+"You have pending request for changing <strong>%(currency)s</strong> wallet "
+"to '%(wallet_pending)s'."
+msgstr ""
+"Via havas pritraktatan peton por ŝanĝi <strong>%(currency)s</strong> monujo "
+"al '%(wallet_pending)s'."
+
+#: templates/msg_pending_wallet.html:4
+#, python-format
+msgid "Email confirmation has been sent to email '%(email)s'."
+msgstr "Konfirma retpoŝto sendiĝis al '%(email)s'."
+
+#: templates/msg_pending_wallet.html:5
+msgid "Please check your mailbox and follow confirmation link."
+msgstr "Bonvolu kontroli vian enirkeston kaj sekvu konfirma ligilo."
+
+#: templates/msg_pending_wallet.html:6
+#, python-format
+msgid ""
+"If you didn't receive confirmation email yet, you can also <a "
+"href='%(url_resend)s%(wallet_pending)s'>resend confirmation</a>."
+msgstr ""
+"Se vi ne ricevis konfirma retpoŝto jam, via povas <a href='%(url_resend)s"
+"%(wallet_pending)s'>resendi konfirmado</a>."
+
+#: templates/msg_pending_wallet.html:7
+#, python-format
+msgid ""
+"If you didn't initiate this change please <a href='%(url_cancel)s"
+"%(wallet_pending)s'>cancel the request</a> and <a "
+"href='%(url_password_reset)s'>change your password</a> immediately."
+msgstr ""
+"Se via ne iniciatas tiun ŝanĝon, bonvolu <a href='%(url_cancel)s"
+"%(wallet_pending)s'>nuligi tiun peton</a> kaj <a "
+"href='%(url_password_reset)s'>ŝanĝi vian pasvorton</a> <em>senprokraste</em>."
+
+#: templates/password_reset.html:45
+msgid "Password reset"
+msgstr "Pasvorta reŝargo"
+
+#: templates/password_reset.html:46
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and I'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+"Ĉu vi forgesis vian pasvorton? Tajpu vian retpoŝtadreso malsupren, kaj mi "
+"malsupren retpoŝtos instrukciojn por agordado de nova pasvorto."
+
+#: templates/password_reset.html:57
+msgid "Reset my password"
+msgstr "Reŝargi pasvorton"
+
+#: templates/password_reset.html:64
+msgid "Enter new password"
+msgstr "Enigu novan pasvorton"
+
+#: templates/password_reset.html:65
+msgid ""
+"Please enter your new password twice so I can verify you typed it in "
+"correctly."
+msgstr ""
+"Bonvolu enigi vian novan pasvorton dufoje do mi povas kontroli ke via tajpis "
+"ĝin korekte."
+
+#: templates/password_reset.html:81
+msgid "Change my password"
+msgstr "Ŝangi mian pasvorton"
+
+#: templates/password_reset.html:87
+msgid "Password reset complete"
+msgstr "Pasvorta reŝargo estas kompleta."
+
+#: templates/password_reset.html:88
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "Via pasvorto estas agordita. Vi povas ensaluti nun."
+
+#: templates/password_reset.html:89
+msgid "Log in"
+msgstr "Ensaluti"
+
+#: templates/password_reset_done.html:44
+msgid "Password reset successful"
+msgstr "Pasvorta reŝargo estas sukcesa."
+
+#: templates/password_reset_done.html:45
+msgid ""
+"I've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+"Mi retpoŝtis instrukciojn por agordado de nova pasvorto al vi ĉe la "
+"retpoŝtadreso ke vi specifis. Vi ricevus ĝin momente."
+
+#: templates/profile.html:4 templates/settings.html:4
+#: templates/token-manage.html:4 templates/transactions.html:4
+#: templates/whitelist.html:3 templates/worker.html:3
+msgid "Logout"
+msgstr "Elsaluti"
+
+#: templates/profile.html:5 templates/settings.html:2
+#: templates/settings.html.py:6
+msgid "Account settings"
+msgstr "Kontaj agordoj"
+
+#: templates/profile.html:6 templates/transactions.html:6
+msgid "Payout history"
+msgstr "Transpaga historio"
+
+#: templates/profile.html:7 templates/token-manage.html:2
+#: templates/token-manage.html.py:6
+msgid "Manage API tokens"
+msgstr "Administri API-aj ĵetonoj"
+
+#: templates/profile.html:50 templates/profile.html.py:74
+#: templates/whitelist.html:16 templates/worker.html:18
+msgid "Save"
+msgstr "Savi"
+
+#: templates/profile.html:58
+msgid "Show Namecoin settings"
+msgstr "Montri nomamonaj agordoj"
+
+#: templates/profile.html:59
+msgid "Merged mining for Namecoin"
+msgstr "Kunfandita minado por nomamono"
+
+#: templates/profile.html:59
+msgid ""
+" is extra income for pool members. Please fill your Namecoin settings to "
+"start collecting Namecoins!"
+msgstr ""
+"estas ekstra enspezo por grupanoj. Bonvolu specifi viajn nomamonajn agordojn "
+"eki kolekadon de nomamonoj."
+
+#: templates/profile.html:63
+msgid "Namecoin settings"
+msgstr "Nomamonaj agordoj"
+
+#: templates/profile.html:88
+msgid "IP Whitelist"
+msgstr "IP-adresa blanka listo"
+
+#: templates/profile.html:91
+msgid "You reached maximum of allowed IPs per account."
+msgstr "Vi atingis maksimuma numero de permesitaj IP-adresoj per konto."
+
+#: templates/profile.html:93
+msgid "Add new IP or domain to whitelist"
+msgstr "Aldoni novan IP-adreso aŭ domajno al blanka listo"
+
+#: templates/profile.html:96
+msgid "Allowed IP/DNS"
+msgstr "Licita IP-adreso/DNS"
+
+#: templates/profile.html:96
+msgid "Resolved IP"
+msgstr "Trovita IP-adreso"
+
+#: templates/profile.html:96
+msgid "Updated at"
+msgstr "Ĝisdatigita ĉe"
+
+#: templates/profile.html:96 templates/profile.html.py:129
+msgid "Actions"
+msgstr "Agoj"
+
+#: templates/profile.html:98
+msgid " (Your current IP address)"
+msgstr "(Via nuntempa IP-adreso)"
+
+#: templates/profile.html:105 templates/profile.html.py:156
+msgid "Delete"
+msgstr "Forigi"
+
+#: templates/profile.html:113
+msgid "Workers"
+msgstr "Laborantoj"
+
+#: templates/profile.html:114
+msgid "Average hashrate in last 10 rounds:"
+msgstr "Mezuma haketrango en la lastaj 10-aj raŭndoj:"
+
+#: templates/profile.html:116
+msgid "Register new worker"
+msgstr "Registri novan laboranton"
+
+#: templates/profile.html:119
+msgid "Login"
+msgstr "Salutnomo"
+
+#: templates/profile.html:119
+msgid "Difficulty"
+msgstr "Malfacileco"
+
+#: templates/profile.html:122 templates/stats.html:15
+msgid "Current shares"
+msgstr "Nunaj partoj"
+
+#: templates/profile.html:123
+msgid "Score"
+msgstr "Nombro de poentoj"
+
+#: templates/profile.html:125
+msgid "Last share at"
+msgstr "Lasta parto ĉe"
+
+#: templates/profile.html:127
+msgid "LP"
+msgstr "Longopinisonda"
+
+#: templates/profile.html:128
+msgid "Stratum"
+msgstr ""
+
+#: templates/profile.html:145
+msgid "on"
+msgstr "ek"
+
+#: templates/profile.html:145
+msgid "off"
+msgstr "for"
+
+#: templates/profile.html:153
+msgid "Edit"
+msgstr "Redakti"
+
+#: templates/profile.html:154 templates/settings.html:22
+msgid "Really?"
+msgstr "Reale?"
+
+#: templates/profile.html:154
+msgid "All worker stats will be lost!"
+msgstr "Ĉia laborantaj statistikoj estos forigita!"
+
+#: templates/profile.html:162
+msgid "You don't have any worker yet. Register one right now!"
+msgstr "Vi ne havas laborantoj ĝis nun. Registru unu nun!"
+
+#: templates/profile.html:167
+msgid ""
+"The calculation is based on the number of shares so far, which may not be "
+"accurate for slow workers."
+msgstr ""
+"La kalkulo bazis en la numero de partoj ĝis nun, kiu eble ne esti preciza "
+"por malrapidaj laborantoj."
+
+#: templates/profile_worker_pager.html:5 templates/transactions-pager.html:5
+msgid "previous"
+msgstr "antaŭa"
+
+#: templates/profile_worker_pager.html:9 templates/transactions-pager.html:9
+msgid "Page"
+msgstr "Paĝo"
+
+#: templates/profile_worker_pager.html:9 templates/transactions-pager.html:9
+msgid "of"
+msgstr "de"
+
+#: templates/profile_worker_pager.html:13 templates/transactions-pager.html:13
+msgid "next"
+msgstr "sekva"
+
+#: templates/register.html:3
+msgid "Register an account"
+msgstr "Registri konton"
+
+#: templates/register.html:5
+msgid ""
+"Your account has been created. Please check your mail for activation link."
+msgstr ""
+"Via konto estas kreita. Bonvolu kontroli vian retpoŝton por aktiviga ligilo."
+
+#: templates/register.html:10
+msgid "You already have an account."
+msgstr "Vi havas konton jam."
+
+#: templates/register.html:10
+#, python-format
+msgid "Please continue to your <a href='%(url)s'>profile page</a>"
+msgstr "Bonvolu daŭrigi al via <a href='%(url)s'>profilo</a>"
+
+#: templates/register.html:16
+msgid "Register now!"
+msgstr "Registru nun!"
+
+#: templates/settings.html:4 templates/token-manage.html:4
+#: templates/transactions.html:4 templates/whitelist.html:3
+#: templates/worker.html:3
+msgid "Back to profile"
+msgstr "Returni al profilo"
+
+#: templates/settings.html:13 templates/settings.html.py:15
+msgid "Change the password"
+msgstr "Ŝanĝi pasvorton"
+
+#: templates/settings.html:14
+msgid "Follow the link for password recovery form:"
+msgstr "Sekvu la ligon por pasvort-rememoriga formularo:"
+
+#: templates/settings.html:19
+msgid ""
+"If you don't want to use this service anymore, you can cancel your account "
+"on the following link:"
+msgstr ""
+"Se vi ne volas uzi ĉi tiun servon plu, via povas renonci vian konton en la "
+"sekvanta ligo:"
+
+#: templates/settings.html:30
+msgid "Change email"
+msgstr "Ŝanĝi retpostadreson"
+
+#: templates/stats-graphs.html:2 templates/stats-graphs.html.py:10
+#: templates/template.html:66
+msgid "Graphs"
+msgstr "Grafeoj"
+
+#: templates/stats-graphs.html:54
+msgid "Your daily reward"
+msgstr "Via ĉiutaga rekompenco"
+
+#: templates/stats-graphs.html:91
+msgid "Daily reward"
+msgstr "Ĉiutaga rekompenco"
+
+#: templates/stats-graphs.html:91
+msgid "day moving AVG"
+msgstr "Ĉiutaga moviĝema mezumo"
+
+#: templates/stats-graphs.html:150
+msgid "System daily reward"
+msgstr "Sistema ĉiutaga rekompenco"
+
+#: templates/stats-graphs.html:246
+msgid "Cumulative distribution of normalized number of shares per block"
+msgstr "Akumula distribuo de ununorma numero de partoj per bloko"
+
+#: templates/stats-graphs.html:275
+msgid "experimental CDF"
+msgstr "eksperimenta CDF-o"
+
+#: templates/stats-graphs.html:276
+msgid "theoretical CDF"
+msgstr "teoria CDF-o"
+
+#: templates/stats.html:7
+msgid "System statistics"
+msgstr "Sistema statistiko"
+
+#: templates/stats.html:8
+msgid "Bitcoin blocks"
+msgstr "Bitmonaj blokoj"
+
+#: templates/stats.html:8
+msgid "Namecoin blocks"
+msgstr "Nomamonaj blokoj"
+
+#: templates/stats.html:12
+msgid "Current round started at:"
+msgstr "Nuntempa raŭndo komenciĝis je"
+
+#: templates/stats.html:12
+msgid "UTC"
+msgstr "UTC"
+
+#: templates/stats.html:13
+msgid "Current round duration:"
+msgstr "Daŭro de nuntempa raŭndo:"
+
+#: templates/stats.html:15
+msgid "CDF"
+msgstr "CDF"
+
+#: templates/stats.html:18
+msgid "Current"
+msgstr "Nuntempe"
+
+#: templates/stats.html:18
+msgid "block"
+msgstr "bloko"
+
+#: templates/stats.html:18
+msgid "difficulty"
+msgstr "malfacileco"
+
+#: templates/stats.html:19
+msgid "Pool luck"
+msgstr "Grupa sorto"
+
+#: templates/stats.html:19
+msgid "day"
+msgstr "tago"
+
+#: templates/stats.html:19
+msgid "days"
+msgstr "tagoj"
+
+#: templates/stats.html:20
+msgid "Current server load (60 sec average)"
+msgstr "Nuntempa servila ŝarĝo  (60-aj sekundoj mezumita)"
+
+#: templates/stats.html:20
+msgid "getwork/s"
+msgstr "getwork/s"
+
+#: templates/stats.html:21
+msgid "Connected workers"
+msgstr "Konektitaj laborantoj"
+
+#: templates/stats.html:21
+msgid "Tor workers"
+msgstr "Laborantoj de Tor"
+
+#: templates/stats.html:25
+msgid "Total score of current round:"
+msgstr "Totala nombro de poentoj en nuntempa raŭndo:"
+
+#: templates/stats.html:26
+msgid "Shares contributed in current round:"
+msgstr "Partoj kontribuita en nuntempa raŭndo:"
+
+#: templates/stats.html:29
+msgid ""
+"Hashrate on <a href=\"/mining-proxy-howto\">Stratum</a> interface (30 min "
+"average)"
+msgstr ""
+
+#: templates/stats.html:29 templates/stats.html.py:30
+msgid "Ghash/s"
+msgstr "duliliono haketoj en sekundo"
+
+#: templates/stats.html:30
+msgid "Approx. cluster performance (30 min average)"
+msgstr "Proksima rendimento de sektoraro (30-aj minutoj mezumita)"
+
+#: templates/stats.html:35
+msgid "Namecoin block history"
+msgstr "Historio de nomamonaj blokoj"
+
+#: templates/stats.html:37
+msgid "Bitcoin block history"
+msgstr "Historio de bitmonaj blokoj"
+
+#: templates/stats.html:40
+msgid "List of found blocks is delayed for two hours."
+msgstr "Listo de trovitaj blokoj estas prokrastita por du horoj."
+
+#: templates/stats.html:42 templates/transactions.html:41
+msgid "All times are in UTC."
+msgstr "Ĉiaj tempoj estas en UTC."
+
+#: templates/stats.html:44
+msgid "Block found at"
+msgstr "Bloko trovita ĉe"
+
+#: templates/stats.html:44
+msgid "Duration"
+msgstr "Daŭro"
+
+#: templates/stats.html:44
+msgid "Total shares"
+msgstr "Totalaj partoj"
+
+#: templates/stats.html:46
+msgid "Your BTC reward"
+msgstr "Via BTC-a rekompenco"
+
+#: templates/stats.html:48
+msgid "Your NMC reward"
+msgstr "Via NMC-a rekompenco"
+
+#: templates/stats.html:51
+msgid "Block #"
+msgstr "Bloko #"
+
+#: templates/stats.html:51
+#, fuzzy
+msgid "Block value"
+msgstr "Bloko #"
+
+#: templates/stats.html:51
+msgid "Validity"
+msgstr "Valideco"
+
+#: templates/stats.html:67
+msgid "Processing..."
+msgstr "Traktanta..."
+
+#: templates/stats.html:79
+msgid "invalid"
+msgstr "malvalida"
+
+#: templates/stats.html:81
+msgid "confirmed"
+msgstr "konfirmita"
+
+#: templates/stats.html:83
+msgid "confirmations left"
+msgstr "konfirmoj restantaj"
+
+#: templates/stats.html:92 templates/stats.html.py:94
+msgid "JSON format"
+msgstr "JSON-a datumaranĝo"
+
+#: templates/template.html:62
+msgid "What is Pooled Mining?"
+msgstr "Kio estas grupminado?"
+
+#: templates/template.html:65
+msgid "Statistics"
+msgstr "Statistiko"
+
+#: templates/template.html:68
+msgid "Forum"
+msgstr "Forumo"
+
+#: templates/template.html:69
+msgid "Live support"
+msgstr "Rekta subteno"
+
+#: templates/template.html:100
+msgid "News"
+msgstr "Novaĵoj"
+
+#: templates/token-manage.html:23
+msgid "Your current token:"
+msgstr "Via nuna ĵetono:"
+
+#: templates/token-manage.html:30
+msgid "Generate new token"
+msgstr "Generi novan ĵetonon"
+
+#: templates/token-manage.html:38
+msgid ""
+"Keep this token private. With this token and API described below, you can "
+"easily retrieve pool account details without need to store login and "
+"password directly in your application."
+msgstr ""
+"Konservu private tiun ĵetonon. Kun tiu ĵetono kaj la API priskribita "
+"malsupren, vi povas ricevi grupkontajn detalojn sen bezono stori salutnomon "
+"kaj pasvorton rekte en agordoj de via aplikaĵo."
+
+#: templates/token-manage.html:41
+msgid "API details"
+msgstr "API-a detaloj"
+
+#: templates/token-manage.html:43
+#, fuzzy
+msgid ""
+"This URL contains JSON encoded data about recent pool rounds, including your "
+"round rewards:"
+msgstr ""
+"Tiu reteja adreso enhavas JSON-dosierformajn datumojn pri via grupa konto:"
+
+#: templates/token-manage.html:47
+msgid "This URL contains JSON encoded data about your pool account:"
+msgstr ""
+"Tiu reteja adreso enhavas JSON-dosierformajn datumojn pri via grupa konto:"
+
+#: templates/token-manage.html:51
+msgid "Login which belongs to given token."
+msgstr "Ensaluto kiu aparteni ĉi tiun ĵetonon."
+
+#: templates/token-manage.html:52
+msgid ""
+"Total user's hashrate, updated every hour and calculated from last 10 rounds "
+"(Mhash/s)."
+msgstr ""
+"Totala haketa rapido de uzanto, ĝisdatiĝita hore kaj kalkulita de lasta 10-"
+"aj raŭndoj (Mhash/s)."
+
+#: templates/token-manage.html:53
+msgid "Reserved."
+msgstr "Rezervita."
+
+#: templates/token-manage.html:54
+msgid ""
+"Estimated reward of current round. This is calculated as (your score)/(total "
+"score) for current round and may vary on every refresh."
+msgstr ""
+"Taksita rekompenco de nuna raŭndo. Tiu estas kalkulita kiel (via nombro de "
+"poentoj)/(totala nombro de poentoj) por nuna raŭndo kaj eblas varii ĉe ĉiu "
+"refreŝigado."
+
+#: templates/token-manage.html:55
+msgid ""
+"Reward from blocks with less than 100 confirmations. This may go down when "
+"some block become invalid (refused by Bitcoin network)."
+msgstr ""
+"Rekompenco de blokoj kun malpli ol 100-aj konfirmoj. Tiu eblas malkreski "
+"kiam iaj blokoj ekos malvalida (rifuzita de bitmonreto)."
+
+#: templates/token-manage.html:56
+msgid "This is your real reward waiting to send to your wallet."
+msgstr "Tiu estas via reala rekompenco atendanta sendiĝi al via monujo."
+
+#: templates/token-manage.html:57
+msgid "Bitcoins will be send to this Bitcoin wallet."
+msgstr "Bitmonoj sendiĝos al ĉi tiun bitmonan monujon."
+
+#: templates/token-manage.html:58
+msgid ""
+"Bitcoins will be sent to you once confirmed_reward crosses over this value. "
+"Pool is processing payments once per hour."
+msgstr ""
+"Bitmono sendiĝos al vi kiam konfirma_rekompenco transas tiun valoron. Grupo "
+"prilaboras pagojn unufoje en horo."
+
+#: templates/token-manage.html:63
+msgid "Expected HTTP statuses:"
+msgstr "Atendita HTTP-statkodoj"
+
+#: templates/token-manage.html:65
+msgid "Request was successful, response contains JSON data described above."
+msgstr ""
+"Peto sukcesis, responde enhavas JSON-aj datumoj kiu estas priskribita supre "
+"menciita."
+
+#: templates/token-manage.html:66
+msgid "Request was not successful, token is probably invalid."
+msgstr "Peto malsukcesis, ĵetono estas malvalida probable."
+
+#: templates/token-manage.html:67
+msgid "Server is down for maintenance or there is some unexpected error."
+msgstr ""
+"Servilo estas neatingebla por prizorgado aŭ ĝi havis ian eraron neatendite."
+
+#: templates/token-manage.html:70
+#, python-format
+msgid "All requests are cached for %(timeout)s seconds."
+msgstr "Ĉiaj petoj estas kaŝmemorigita por %(timeout)s-aj sekundoj."
+
+#: templates/transactions.html:2
+msgid "Transactions"
+msgstr "Transakcioj"
+
+#: templates/transactions.html:8
+msgid "Total:"
+msgstr "Totalo:"
+
+#: templates/transactions.html:13
+msgid "Date"
+msgstr "Dato"
+
+#: templates/transactions.html:13
+msgid "Address"
+msgstr "Adreso"
+
+#: templates/transactions.html:13
+msgid "Amount"
+msgstr "Sumo"
+
+#: templates/transactions.html:35
+msgid "No transactions yet"
+msgstr "Ne transakcioj ĝis nun"
+
+#: templates/wallet_confirm.html:4 templates/wallet_confirm.html.py:9
+msgid "Wallet change confirmation"
+msgstr "Konfirmo de ŝanĝe de monujo "
+
+#: templates/wallet_confirm.html:4 templates/wallet_confirm.html.py:20
+#: templates/wallet_confirm.html:30
+msgid "success"
+msgstr "Sukceso"
+
+#: templates/wallet_confirm.html:5
+msgid "Your wallet has been succesfully changed."
+msgstr "Via monujo estis ŝanĝita sukcese."
+
+#: templates/wallet_confirm.html:9 templates/wallet_confirm.html.py:15
+msgid "failure"
+msgstr "Malsukcesego"
+
+#: templates/wallet_confirm.html:10
+msgid "You provided incorrect confirmation link for wallet change."
+msgstr "Vi provizi malkorekta konfirma ligilo por ŝanĝe de monujo."
+
+#: templates/wallet_confirm.html:11
+msgid "However, you can resend confirmation email from profile page."
+msgstr "Tamen, vi povas resendi konfirman retpoŝton de via profilpaĝo."
+
+#: templates/wallet_confirm.html:15 templates/wallet_confirm.html.py:30
+msgid "Wallet change resend"
+msgstr "Resendi ŝanĝon de monujo "
+
+#: templates/wallet_confirm.html:16
+msgid "You don't have any wallet change in progress, there's nothing to send."
+msgstr "Vi ne havas ŝanĝo de monujo en progreso, do estas nenio sendi."
+
+#: templates/wallet_confirm.html:20 templates/wallet_confirm.html.py:25
+msgid "Wallet change"
+msgstr "Monuja ŝanĝo"
+
+#: templates/wallet_confirm.html:25
+msgid "request cancelled"
+msgstr "Peto nuligita"
+
+#: templates/wallet_confirm.html:26
+msgid "Request for changing wallet address has been cancelled."
+msgstr "Peto ŝanĝi monujan adresoj estis nuligita."
+
+#: templates/wallet_confirm.html:34
+msgid "Please continue to"
+msgstr "Bonvolu daŭrigi al"
+
+#: templates/wallet_confirm.html:34
+msgid "your profile page"
+msgstr "Via profila paĝo"
+
+#: templates/whitelist.html:5
+msgid "Edit IP whitelist entry"
+msgstr "Redakti IP-adresan blankan listan eron"
+
+#: templates/whitelist.html:7
+msgid "Whitelist has been updated."
+msgstr "Blanka listo ĝisdatiĝis."
+
+#: templates/whitelist.html:11
+msgid "You reached maximum allowed IPs per account."
+msgstr "Vi atingis maksimuma numero de permesitaj IP-adresoj per konto."
+
+#: templates/worker.html:5
+msgid "Edit worker"
+msgstr "Redakti laboranto"
+
+#: templates/worker.html:7
+msgid "Worker has been updated."
+msgstr "Laboranto ĝisdatiĝis."
+
+#: templates/worker.html:11
+msgid "Worker with this name already exists."
+msgstr "Laboranto kun ĉi tiun nomon ekzistas jam."
+
+#: templates/worker.html:17
+msgid "Applying changes on connected worker may take up to 30 minutes."
+msgstr ""
+"Aplikado de ŝanĝoj en konektita laboranto povas bezoni ĝis 30-aj minutoj."
+
+#~ msgid "phoenix GUI miner"
+#~ msgstr "GPU-a minilo de phoenix"
+
+#~ msgid "Diablo's GPU miner"
+#~ msgstr "GPU-a minilo de Diablo"
+
+#~ msgid "puddinpop's CPU/GPU miners"
+#~ msgstr "CPU-aj/GPU-aj miniloj de puddinpop"
