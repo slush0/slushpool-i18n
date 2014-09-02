@@ -354,8 +354,8 @@ msgid ""
 "link</a>."
 msgstr ""
 "Если Вы действительно хотите удалить Ваш аккаунт <strong>%(username)s</"
-"strong>, пожалуйста, пройдите по ссылке <a href='%(url)s%(token)s/"
-"%(timestamp)s'> с подтверждением."
+"strong>, пожалуйста, пройдите по <a href='%(url)s%(token)s/%(timestamp)s'>"
+"ссылке с подтверждением</a>."
 
 #: templates/email_account_delete.html:7
 msgid ""
